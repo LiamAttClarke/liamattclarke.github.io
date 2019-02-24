@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background: #1f364d;  
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 1.5em;   
+}
+
+p {
+  margin: 8px 0;
+  color: #b9c9da;
+}
+
+a {
+  color: #55acee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  width: 640px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.site-banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+.site-banner > .right {
+  text-align: right;
+}
+
+.site-tagline {
+  color: #b9c9da;
+}
+
+.page-section {
+  margin-bottom: 32px;
+}
+
+.section-header {
+  margin: 8px 0;
+}
+
+.project-card {
+  display: flex;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #233b53;  
+  border-radius: 3px;
+}
+
+.project-card:last-child {
+  margin-bottom: 0;
+}
+
+.project-thumb {
+  width: 128px;
+  flex-shrink: 0;
+  height: 128px;
+  margin-right: 16px;
+  border-radius: 3px;
+}
+
+.project-info {
+  position: relative;
+  flex-grow: 1;
+  padding-bottom: 32px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-client {
+  color: #b9c9da;
+}
+
+.project-link {
+  float: right;
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  padding: 6px 12px;
+  background-color: #55acee;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 3px 0 #4b8bbc;
+}
+
+.project-link:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+  
+  .page {
+    width: 100vw;
+    padding: 0 16px;
+  }  
+
+  .project-thumb {
+    width: 96px;
+    height: 96px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .site-banner {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .site-banner > .left {
+    margin-bottom: 8px;
+  }
+
+  .site-banner > .right {
+    text-align: left;
+  }
+
+  .project-card {
+    padding: 12px;
+  }
+  
+  .project-thumb {
+    width: 64px;
+    height: 64px;
+    margin-right: 12px;
+  }
+
+  .project-client {
+    font-size: 12px;
+  }
+
+  .project-link {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .project-thumb {
+    display: none;
+  }
+}

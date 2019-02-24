@@ -1,0 +1,13 @@
+{
+  "name": "liamattclarke.github.io",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamAttClarke/liamattclarke.github.io.git"
+  },
+  "devDependencies": {
+    "mustache": "^3.0.1"
+  }
+}
