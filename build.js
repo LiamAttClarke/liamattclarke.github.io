@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const mustache = require('mustache');
 
-const SRC_PATH = path.join(__dirname, 'src');
-const DEST_PATH = path.join(__dirname, 'public');
+const SRC_PATH = path.join(__dirname, 'templates');
+const DEST_PATH = __dirname;
 
-const siteContent = require('./src/content.json');
+const siteContent = require('./content.json');
 const templateFiles = [];
 const partials = {};
 
