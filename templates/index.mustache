@@ -19,7 +19,7 @@
               <h3 class="no-margin">{{name}}</h3>
               <span class="project-client">{{client}}</span>
           </div>
-          {{&description}}
+          <p>{{description}}</p>
           <a class="project-link" href="{{link}}">Check it out <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
@@ -29,15 +29,34 @@
       <div class="section-header">
         <h2 class="no-margin">Open Source</h2>
       </div>
+      {{#openSource}}
       <div class="card project-card">
         <div class="project-info">
           <div class="project-header">
-              <h3 class="no-margin">SVGEO</h3>
+              <h3 class="no-margin">{{name}}</h3>
           </div>
-          <p>NodeJS library/CLI for converting SVG files to GeoJSON.</p>
-          <a class="project-link" href="https://github.com/LiamAttClarke">Check it out <i class="fas fa-arrow-right"></i></a>
+          <p>{{description}}</p>
+          <a class="project-link" href="{{link}}">Check it out <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
+      {{/openSource}}
+    </section>
+    <section class="page-section">
+      <div class="section-header">
+        <h2 class="no-margin">Experiments</h2>
+      </div>
+      {{#experiments}}
+      <div class="card project-card">
+        <img class="project-thumb" src="{{thumb}}" alt="{{name}} Thumbnail">
+        <div class="project-info">
+          <div class="project-header">
+              <h3 class="no-margin">{{name}}</h3>
+          </div>
+          <p>{{description}}</p>
+          <a class="project-link" href="{{link}}">Check it out <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      {{/experiments}}
     </section>
   </div>
 </body>
