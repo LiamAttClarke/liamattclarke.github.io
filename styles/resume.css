@@ -1,0 +1,69 @@
+hr {
+  background-color: #eee;
+}
+
+.page {
+  width: 8.5in;
+  padding: 0;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.resume {
+  width: 8.5in;
+  height: 11in;
+  padding: .75in;
+  color: black;
+  background: white;
+  box-shadow: 0 1px 4px black;
+}
+
+.resume p, ol, ul {
+  color: black;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5in;
+}
+
+.resume-header > .right {
+  text-align: right;
+}
+
+.resume-experience-entry {
+  margin: 16px 0;
+}
+
+.resume-experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-tools-used {
+  font-size: 12px;
+}
+
+@page {
+  size: letter;
+  margin: 0;
+}
+
+@media print {
+  .page {
+    margin: 0;
+  }
+
+  .page-header {
+    display: none;
+  }
+
+  .document {
+    box-shadow: none;
+  }
+}

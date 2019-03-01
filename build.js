@@ -2,26 +2,27 @@ const fs = require('fs');
 const path = require('path');
 const mustache = require('mustache');
 
-const SRC_PATH = path.join(__dirname, 'templates');
+const TEMPLATES_PATH = path.join(__dirname, 'templates');
+const PARTIALS_PATH = path.join(TEMPLATES_PATH, 'partials');
 const DEST_PATH = __dirname;
 
 const siteContent = require('./content.json');
-const templateFiles = [];
 const partials = {};
 
 // Register partials
-fs.readdirSync(SRC_PATH).forEach(srcFileName => {
-  if (srcFileName.match(/\_partial\.mustache$/)) {
-    partials[srcFileName.match(/(.+)\_partial\.mustache$/)[1]] = fs.readFileSync(path.join(SRC_PATH, srcFileName), 'utf8');
-  } else if (path.extname(srcFileName) === '.mustache') {
-    templateFiles.push(srcFileName);
+fs.readdirSync(PARTIALS_PATH).forEach(srcFileName => {
+  let partialNameMatch = srcFileName.match(/(.+)\_partial\.mustache$/);
+  if (partialNameMatch) {
+    partials[partialNameMatch[1]] = fs.readFileSync(path.join(PARTIALS_PATH, srcFileName), 'utf8');
   }
 });
 
 // Compile templates
-templateFiles.forEach(templateFileName => {
-  const templateString = fs.readFileSync(path.join(SRC_PATH, templateFileName), 'utf8');
-  const compiledTemplate = mustache.render(templateString, siteContent, partials);
-  const fileName = templateFileName.replace('.mustache', '.html');
-  fs.writeFileSync(path.join(DEST_PATH, fileName), compiledTemplate);
+fs.readdirSync(TEMPLATES_PATH).forEach(templateFileName => {
+  if (templateFileName.endsWith('.mustache')) {
+    const templateString = fs.readFileSync(path.join(TEMPLATES_PATH, templateFileName), 'utf8');
+    const compiledTemplate = mustache.render(templateString, siteContent, partials);
+    const fileName = templateFileName.replace('.mustache', '.html');
+    fs.writeFileSync(path.join(DEST_PATH, fileName), compiledTemplate);
+  }
 })

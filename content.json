@@ -1,15 +1,17 @@
 {
+  "title": "Liam Atticus Clarke",
+  "tagline": "Software Developer in Toronto, Canada",
   "portfolio": [
     {
-      "name": "Venue Map",
-      "thumb": "/images/fanxchange-map/thumb.jpg",
+      "name": "Interactive Venue Maps",
+      "thumb": "/images/venue-map/thumb.jpg",
       "client": "Fanxchange",
       "description": "<p>Find the best seats in the house for thousands of popular venues. Narrow your search by selecting sections or simply zoom in to filter tickets to visible rows.</p><p>Platforms: Web, iOS</p>",
       "link": "/venue-map.html"
     },
     {
       "name": "Fanxchange.com",
-      "thumb": "/images/fanxchange-site/thumb.jpg",
+      "thumb": "/images/fanxchange/thumb.jpg",
       "client": "Fanxchange",
       "description": "<p>Consumer site for Fanxchange's live-event marketplace.</p>",
       "link": "/fanxchange.html"

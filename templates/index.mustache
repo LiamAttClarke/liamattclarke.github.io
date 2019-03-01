@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Liam Atticus Clarke</title>
+  <title>{{title}}</title>
   {{> head}}
 </head>
 <body>
@@ -9,36 +9,36 @@
     {{> header}}
     <section class="page-section">
       <div class="section-header">
-        <h2>Portfolio</h2>
+        <h2 class="no-margin">Portfolio</h2>
       </div>
       {{#portfolio}}
-      <div class="project-card">
-        <img class="project-thumb" src="{{thumb}}" alt="Interactive Venue Maps Thumbnail">
-        <div class="project-info">          
+      <div class="card project-card">
+        <img class="project-thumb" src="{{thumb}}" alt="{{name}} Thumbnail">
+        <div class="project-info">
           <div class="project-header">
-              <h3>{{name}}</h3>
+              <h3 class="no-margin">{{name}}</h3>
               <span class="project-client">{{client}}</span>
-          </div>  
-          {{&description}}      
-          <a class="project-link" href="{{link}}">Check it out</a>
-        </div>        
+          </div>
+          {{&description}}
+          <a class="project-link" href="{{link}}">Check it out <i class="fas fa-arrow-right"></i></a>
+        </div>
       </div>
       {{/portfolio}}
     </section>
     <section class="page-section">
       <div class="section-header">
-        <h2>Open Source</h2>
+        <h2 class="no-margin">Open Source</h2>
       </div>
-      <div class="project-card">
+      <div class="card project-card">
         <div class="project-info">
           <div class="project-header">
-              <h3>SVGEO</h3>
-          </div>        
+              <h3 class="no-margin">SVGEO</h3>
+          </div>
           <p>NodeJS library/CLI for converting SVG files to GeoJSON.</p>
-          <a class="project-link" href="https://github.com/LiamAttClarke">Check it out</a>
-        </div>        
-      </div>        
-    </section>    
+          <a class="project-link" href="https://github.com/LiamAttClarke">Check it out <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
   </div>
 </body>
 </html>
