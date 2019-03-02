@@ -20,13 +20,6 @@
       "link": "/fanxchange.html"
     }
   ],
-  "openSource": [
-    {
-      "name": "SVGEO",
-      "description": "NodeJS library/CLI for converting SVG files to GeoJSON.",
-      "repo": "https://github.com/LiamAttClarke"
-    }
-  ],
   "experiments": [
     {
       "name": "Geometry Stretcher",
