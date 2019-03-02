@@ -1,0 +1,3 @@
+[submodule "projects/geometry-stretcher"]
+	path = projects/geometry-stretcher
+	url = https://github.com/LiamAttClarke/geometry-stretcher.git
