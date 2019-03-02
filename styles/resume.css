@@ -49,6 +49,10 @@ hr {
   font-size: 12px;
 }
 
+.resume-footer {
+  text-align: center;
+}
+
 @page {
   size: letter;
   margin: 0;

@@ -7,6 +7,7 @@
 <body>
   <div class="page">
     {{> header}}
+    <p>I'm a creative and passionate developer looking to lend my strengths to an equally passionate team. If you find my work compelling, reach out so we can start building something awesome!</p>
     <section class="page-section">
       <div class="section-header">
         <h2 class="no-margin">Portfolio</h2>
@@ -24,22 +25,6 @@
         </div>
       </div>
       {{/portfolio}}
-    </section>
-    <section class="page-section">
-      <div class="section-header">
-        <h2 class="no-margin">Open Source</h2>
-      </div>
-      {{#openSource}}
-      <div class="card project-card">
-        <div class="project-info">
-          <div class="project-header">
-              <h3 class="no-margin">{{name}}</h3>
-          </div>
-          <p>{{description}}</p>
-          <a class="project-link" href="{{link}}">Check it out <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-      {{/openSource}}
     </section>
     <section class="page-section">
       <div class="section-header">
