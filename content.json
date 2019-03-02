@@ -29,29 +29,11 @@
   ],
   "experiments": [
     {
-      "name": "Geometry Slicer",
-      "thumb": "/images/geometry-slicer/thumb.jpg",
-      "description": "Bisect complex 3D models in real-time with this UnityEngine component.",
-      "repo": "https://github.com/LiamAttClarke/geometry-slicer"
-    },
-    {
       "name": "Geometry Stretcher",
       "thumb": "/images/geometry-stretcher/thumb.jpg",
       "description": "Stretch 3D geometries as if they were rubber.",
       "repo": "https://github.com/LiamAttClarke/geometry-stretcher",
       "link": "/projects/geometry-stretcher/index.html"
-    },
-    {
-      "name": "Perlin Planet",
-      "thumb": "/images/perlin-planet/thumb.jpg",
-      "description": "Procedural planet generatation using 3D Perlin Noise.",
-      "repo": "https://github.com/LiamAttClarke/perlin-planet"
-    },
-    {
-      "name": "Giant's Causeway",
-      "thumb": "/images/giants-causeway/thumb.jpg",
-      "description": "Procedural hexagonal terrain inspired by the Giant's Causeway in Northern Ireland. Terrain is composed of an array of basalt-like columns which shift vertically to represent a translating terrain.",
-      "repo": "https://github.com/LiamAttClarke/giants-causeway"
     }
   ]
 }
