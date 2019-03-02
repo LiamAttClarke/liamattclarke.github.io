@@ -31,7 +31,7 @@
     {
       "name": "Geometry Slicer",
       "thumb": "/images/geometry-slicer/thumb.jpg",
-      "description": "Bisect complex 3D dels in real-time with this UnityEngine component.",
+      "description": "Bisect complex 3D models in real-time with this UnityEngine component.",
       "repo": "https://github.com/LiamAttClarke/geometry-slicer"
     },
     {
