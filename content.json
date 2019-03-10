@@ -22,11 +22,11 @@
   ],
   "experiments": [
     {
-      "name": "Geometry Stretcher",
-      "thumb": "/images/geometry-stretcher/thumb.jpg",
-      "description": "Stretch 3D geometries as if they were rubber.",
-      "repo": "https://github.com/LiamAttClarke/geometry-stretcher",
-      "link": "/projects/geometry-stretcher/index.html"
+      "name": "Stretchy Face",
+      "thumb": "/images/stretchy-face/thumb.jpg",
+      "description": "What if my head was made of rubber?",
+      "repo": "https://github.com/LiamAttClarke/stretchy-face",
+      "link": "/projects/stretchy-face/index.html"
     }
   ]
 }

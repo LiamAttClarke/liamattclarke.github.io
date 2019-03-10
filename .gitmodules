@@ -1,3 +1,3 @@
-[submodule "projects/geometry-stretcher"]
-	path = projects/geometry-stretcher
-	url = https://github.com/LiamAttClarke/geometry-stretcher.git
+[submodule "projects/stretchy-face"]
+	path = projects/stretchy-face
+	url = https://github.com/LiamAttClarke/stretchy-face.git
