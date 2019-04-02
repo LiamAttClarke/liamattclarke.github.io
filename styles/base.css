@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
   color: white;
-  background: #1f364d;
+  background-color: #1f364d;
   font-size: 14px;
 }
 
@@ -48,7 +48,7 @@ ol, ul {
 }
 
 .page {
-  width: 720px;
+  width: 960px;
   margin: 0 auto 32px auto;
   padding: 0 16px;
 }
@@ -113,66 +113,10 @@ ol, ul {
   margin-bottom: 0;
 }
 
-.project-card {
-  display: flex;
-}
-
-.project-thumb {
-  width: 128px;
-  flex-shrink: 0;
-  height: 128px;
-  margin-right: 16px;
-  border-radius: 3px;
-}
-
-.project-info {
-  position: relative;
-  flex-grow: 1;
-  padding-bottom: 32px;
-}
-
-.project-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.project-client {
-  color: #b9c9da;
-}
-
-.project-link {
-  float: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 6px 12px;
-  background-color: #55acee;
-  border-radius: 3px;
-  color: white;
-  font-weight: 700;
-}
-.project-link:hover {
-  text-decoration: none;
-}
-
-.project-screenshot {
-  width: 100%;
-  margin: 8px 0;
-  box-shadow: 0 1px 8px #233b53;
-}
-.project-screenshot:last-of-type {
-  margin-bottom: 0;
-}
-
 @media screen and (max-width: 640px) {
   .page {
     width: 100vw;
     padding: 0 16px;
-  }
-
-  .project-thumb {
-    width: 96px;
-    height: 96px;
   }
 }
 
@@ -191,29 +135,8 @@ ol, ul {
   .site-header-link {
     flex-direction: row-reverse;
   }
-
-  .project-card {
-    padding: 12px;
-  }
-
-  .project-thumb {
-    width: 64px;
-    height: 64px;
-    margin-right: 12px;
-  }
-
-  .project-client {
-    font-size: 12px;
-  }
-
-  .project-link {
-    padding: 4px 8px;
-    font-size: 12px;
-  }
 }
 
 @media screen and (max-width: 320px) {
-  .project-thumb {
-    display: none;
-  }
+
 }
