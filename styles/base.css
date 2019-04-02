@@ -136,7 +136,3 @@ ol, ul {
     flex-direction: row-reverse;
   }
 }
-
-@media screen and (max-width: 320px) {
-
-}
