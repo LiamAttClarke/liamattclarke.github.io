@@ -33,14 +33,50 @@ a:hover {
 }
 
 hr {
+  height: 1px;
   border: 0;
-  border-top: solid 2px #b9c9da;
+  background-color: #152331;
 }
 
 ol, ul {
   color: #b9c9da;
   padding-left: 24px;
   margin: 8px 0;
+}
+
+button {
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #55acee;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+}
+button.small {
+  font-size: 10px;
+}
+button.large {
+  font-size: 14px;
+}
+button:disabled {
+  background-color: #b9c9da;
+  color: #1f364d;
+  cursor: default;
+}
+
+input {
+  padding: 4px;
+  border: solid 1px #152331;
+  background-color: #152331;
+  border-radius: 3px;
+  color: white;
+  transition: border-color ease-in-out 150ms;
+}
+input:focus {
+  border-color: #b9c9da;
 }
 
 .no-margin {
@@ -111,6 +147,13 @@ ol, ul {
 }
 .card:last-of-type {
   margin-bottom: 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
 }
 
 @media screen and (max-width: 960px) {
