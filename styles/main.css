@@ -3,9 +3,9 @@
 }
 
 .project-thumb {
-  width: 128px;
+  width: 150px;
   flex-shrink: 0;
-  height: 128px;
+  height: 150px;
   margin-right: 16px;
   border-radius: 3px;
 }
@@ -30,14 +30,9 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 6px 12px;
-  background-color: #55acee;
   border-radius: 3px;
-  color: white;
+  color: #55acee;
   font-weight: 700;
-}
-.project-link:hover {
-  text-decoration: none;
 }
 
 .project-screenshot {
