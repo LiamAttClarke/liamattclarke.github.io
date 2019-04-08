@@ -11,7 +11,7 @@ body {
   font-family: 'Nunito', sans-serif;
   color: white;
   background-color: #1f364d;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,7 +84,7 @@ input:focus {
 }
 
 .page {
-  width: 960px;
+  width: 720px;
   margin: 0 auto 32px auto;
   padding: 0 16px;
 }
@@ -156,7 +156,7 @@ input:focus {
   margin-bottom: 16px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 720px) {
   .page {
     width: 100vw;
     padding: 0 16px;
