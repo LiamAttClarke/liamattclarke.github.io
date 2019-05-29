@@ -1,10 +1,11 @@
 hr {
-  border-top: solid 1px #ddd;
+  background-color: #ddd;
 }
 
 .page {
   width: 8.5in;
   padding: 0;
+  font-size: 12px;
 }
 
 .page-header {
@@ -29,18 +30,19 @@ hr {
 .resume-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: .5in;
+  margin-bottom: .25in;
 }
 
 .resume-header > .right {
   text-align: right;
+  line-height: 133%;
 }
 
-.resume-experience-entry {
+.resume-project-entry {
   margin: 16px 0;
 }
 
-.resume-experience-header {
+.resume-project-header {
   display: flex;
   justify-content: space-between;
 }
