@@ -3,7 +3,10 @@
   "tagline": "Software Developer in Toronto, Canada",
   "phone": "(647) 701-8622",
   "email": "liam.att.clarke@gmail.com",
-  "github": "github.com/LiamAttClarke",
+  "site": "https://atticus.dev",
+  "siteLabel": "atticus.dev",
+  "github": "https://github.com/LiamAttClarke",
+  "githubLabel": "github.com/LiamAttClarke",
   "portfolio": [
     {
       "name": "Interactive Venue Maps",

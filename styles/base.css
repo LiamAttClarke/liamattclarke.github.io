@@ -8,19 +8,19 @@
 
 body {
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: white;
-  background-color: #1f364d;
+  background-color: #222;
   font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 8px 0;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 p {
-  color: #b9c9da;
+  color: #ddd;
 }
 
 a {
@@ -39,7 +39,7 @@ hr {
 }
 
 ol, ul {
-  color: #b9c9da;
+  color: #ddd;
   padding-left: 24px;
   margin: 8px 0;
 }
@@ -62,8 +62,8 @@ button.large {
   font-size: 14px;
 }
 button:disabled {
-  background-color: #b9c9da;
-  color: #1f364d;
+  background-color: #ddd;
+  color: #222;
   cursor: default;
 }
 
@@ -76,7 +76,7 @@ input {
   transition: border-color ease-in-out 150ms;
 }
 input:focus {
-  border-color: #b9c9da;
+  border-color: #ddd;
 }
 
 .no-margin {
@@ -105,13 +105,12 @@ input:focus {
 }
 
 .site-title {
-  margin: 0;
   font-size: 1.75em;
 }
 
 .site-tagline {
   margin: 0;
-  color: #b9c9da;
+  color: #ddd;
 }
 
 .site-header-link {
@@ -143,7 +142,7 @@ input:focus {
   margin-bottom: 16px;
   padding: 16px;
   border-radius: 3px;
-  background-color: #233b53;
+  background-color: #2d2d2d;
 }
 .card:last-of-type {
   margin-bottom: 0;

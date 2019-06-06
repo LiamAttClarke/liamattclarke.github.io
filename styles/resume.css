@@ -1,17 +1,18 @@
-hr {
-  background-color: #ddd;
-}
-
 .page {
   width: 8.5in;
   padding: 0;
   font-size: 12px;
+  line-height: 150%;
 }
 
 .page-header {
   display: flex;
   justify-content: space-between;
   padding: 16px 0;
+}
+
+.resume-tagline {
+  font-weight: 400;
 }
 
 .resume {
@@ -27,6 +28,14 @@ hr {
   color: black;
 }
 
+.resume ul {
+  padding-left: 16px;
+}
+
+.resume p {
+  text-indent: 16px;
+}
+
 .resume-header {
   display: flex;
   justify-content: space-between;
@@ -38,8 +47,14 @@ hr {
   line-height: 133%;
 }
 
+.resume-contact-detail {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
 .resume-project-entry {
-  margin: 16px 0;
+  margin: 24px 0;
 }
 
 .resume-project-header {
@@ -49,6 +64,7 @@ hr {
 
 .resume-tools-used {
   font-size: 12px;
+  font-style: italic;
 }
 
 .resume-footer {

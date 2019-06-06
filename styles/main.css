@@ -22,7 +22,7 @@
 }
 
 .project-client {
-  color: #b9c9da;
+  color: #ddd;
 }
 
 .project-link {
@@ -38,7 +38,7 @@
 .project-screenshot {
   width: 100%;
   margin: 8px 0;
-  box-shadow: 0 1px 8px #233b53;
+  box-shadow: 0 1px 8px #2d2d2d;
 }
 .project-screenshot:last-of-type {
   margin-bottom: 0;
