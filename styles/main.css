@@ -44,10 +44,6 @@
   margin-bottom: 0;
 }
 
-.fa-canadian-maple-leaf {
-  color: red;
-}
-
 @media screen and (max-width: 640px) {
   .project-thumb {
     width: 96px;

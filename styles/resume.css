@@ -11,10 +11,6 @@
   padding: 16px 0;
 }
 
-.resume-tagline {
-  font-weight: 400;
-}
-
 .resume {
   width: 8.5in;
   height: 11in;
@@ -51,6 +47,14 @@
   display: block;
   color: black;
   text-decoration: none;
+}
+
+.resume-tagline {
+  color: black;
+}
+
+.resume-tagline > .fa-canadian-maple-leaf {
+  color: black;
 }
 
 .resume-project-entry {

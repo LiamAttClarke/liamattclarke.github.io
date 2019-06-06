@@ -111,6 +111,11 @@ input:focus {
 .site-tagline {
   margin: 0;
   color: #ddd;
+  font-weight: 400;
+}
+
+.site-tagline > .fa-canadian-maple-leaf {
+  color: red;
 }
 
 .site-header-link {
