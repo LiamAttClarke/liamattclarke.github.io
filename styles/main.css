@@ -32,7 +32,7 @@
   right: 0;
   border-radius: 3px;
   color: #55acee;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .project-screenshot {
@@ -42,6 +42,10 @@
 }
 .project-screenshot:last-of-type {
   margin-bottom: 0;
+}
+
+.fa-canadian-maple-leaf {
+  color: red;
 }
 
 @media screen and (max-width: 640px) {
