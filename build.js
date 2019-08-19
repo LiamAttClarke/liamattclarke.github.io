@@ -2,11 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const mustache = require('mustache');
 
-const TEMPLATES_PATH = path.join(__dirname, 'templates');
+const TEMPLATES_PATH = path.join(__dirname, 'src/templates');
 const PARTIALS_PATH = path.join(TEMPLATES_PATH, 'partials');
 const DEST_PATH = __dirname;
 
-const siteContent = require('./content.json');
+const siteContent = require('./src/content.json');
 const partials = {};
 
 // Register partials
