@@ -133,14 +133,11 @@ input:focus {
 }
 
 .page-section {
-  margin-bottom: 32px;
-}
-.page-section:last-of-type {
-  margin-bottom: 0;
+  margin: 32px 0;
 }
 
 .section-header {
-  margin: 8px 0;
+  margin: 16px 0;
 }
 
 .card {
