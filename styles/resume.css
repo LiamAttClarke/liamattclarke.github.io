@@ -11,6 +11,20 @@
   padding: 16px 0;
 }
 
+.resume-title {
+  font-size: 1.75em;
+}
+
+.resume-tagline {
+  margin: 0;
+  color: black;
+  font-weight: 400;
+}
+
+.resume-tagline > .fa-canadian-maple-leaf {
+  color: black;
+}
+
 .resume {
   width: 8.5in;
   height: 11in;
@@ -49,14 +63,6 @@
   text-decoration: none;
 }
 
-.resume-tagline {
-  color: black;
-}
-
-.resume-tagline > .fa-canadian-maple-leaf {
-  color: black;
-}
-
 .resume-project-entry {
   margin: 24px 0;
 }
@@ -66,9 +72,26 @@
   justify-content: space-between;
 }
 
-.resume-tools-used {
+.resume-achievements {
+
+}
+
+.resume-tools {
+  list-style-type: none;
   font-size: 12px;
   font-style: italic;
+}
+
+.resume-tools > li {
+  display: inline;
+}
+
+.resume-tools > li:after {
+  content: ", "
+}
+
+.resume-tools > li:last-child:after {
+  content: "";
 }
 
 .resume-footer {

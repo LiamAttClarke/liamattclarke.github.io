@@ -10,9 +10,9 @@
     <p>I'm a creative and passionate developer looking to lend my strengths to an equally passionate team. If you find my work compelling, reach out so we can start building something awesome!</p>
     <section class="page-section">
       <div class="section-header">
-        <h2 class="no-margin">Portfolio</h2>
+        <h2 class="no-margin">Projects</h2>
       </div>
-      {{#portfolio}}
+      {{#projects}}
       <div class="card project-card">
         <img class="project-thumb" src="{{thumb}}" alt="{{name}} Thumbnail">
         <div class="project-info">
@@ -24,11 +24,11 @@
           <a class="project-link" href="{{link}}">Check it out</a>
         </div>
       </div>
-      {{/portfolio}}
+      {{/projects}}
     </section>
     <section class="page-section">
       <div class="section-header">
-        <h2 class="no-margin">Adventures in code</h2>
+        <h2 class="no-margin">Experiments</h2>
       </div>
       {{#experiments}}
       <div class="card project-card">
@@ -43,9 +43,7 @@
       </div>
       {{/experiments}}
     </section>
-    <footer class="site-footer">
-      <p>Feel free to use my <a href="/files/liam_model.zip" target="_blank">head</a> in your next project. Make sure to <a href="mailto:{{email}}">send me screenshots</a>.</p>
-    </footer>
+    <footer class="site-footer"></footer>
   </div>
 </body>
 </html>

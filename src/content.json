@@ -1,19 +1,25 @@
 {
   "title": "Liam Atticus Clarke",
-  "tagline": "Software Developer in Toronto, Canada",
+  "tagline": "Full Stack Developer in Toronto, Canada",
   "phone": "(647) 701-8622",
   "email": "liam.att.clarke@gmail.com",
   "site": "https://atticus.dev",
   "siteLabel": "atticus.dev",
   "github": "https://github.com/LiamAttClarke",
   "githubLabel": "github.com/LiamAttClarke",
-  "portfolio": [
+  "projects": [
     {
-      "name": "Interactive Venue Maps",
-      "thumb": "/images/venue-map/thumb.jpg",
+      "name": "SVG Plotter",
+      "thumb": "/images/svg-plotter/thumb.png",
+      "description": "Convert SVG files to GeoJSON for use in mapping software.",
+      "link": "https://atticus.dev/svg-plotter/demo/index.html"
+    },
+    {
+      "name": "Interactive Seating Charts",
+      "thumb": "/images/seating-chart/thumb.jpg",
       "client": "Fanxchange",
       "description": "Find the best seats in the house for thousands of popular venues. Narrow your search by selecting sections or simply zoom in to filter tickets to visible rows.",
-      "link": "/venue-map.html"
+      "link": "/seating-chart.html"
     },
     {
       "name": "Fanxchange.com",
@@ -27,9 +33,118 @@
     {
       "name": "Stretchy Face",
       "thumb": "/images/stretchy-face/thumb.png",
-      "description": "What if my head was made of rubber?",
+      "description": "What if my head was made of gelatin?",
       "repo": "https://github.com/LiamAttClarke/stretchy-face",
       "link": "/stretchy-face"
     }
-  ]
+  ],
+  "resume": {
+    "title": "Liam Atticus Clarke",
+    "tagline": "Full Stack Developer",
+    "experience": [
+      {
+        "title": "Software Developer",
+        "client": "Transitional Forms",
+        "start": "November 2020",
+        "end": null,
+        "achievements": [
+          "Co-designed, and built a real-time generative conversation pipeline for AI agents with modular text generation, speech synthesis, and semantic analysis.",
+          "Built a tool for previewing and directing generated conversations prior to being spoken, enabling directors to influence generation.",
+          "Automated deployment of short-lived clusters on GCP for the purpose of running a reoccurring show that has large CPU/GPU overhead.",
+          "Collaborated with a music producer to develop an emotionally expressive AI music composer."
+        ],
+        "tools": [
+          "Typescript",
+          "Python",
+          "Docker",
+          "GCP",
+          "GPT2",
+          "Tensorflow",
+          "Magenta"
+        ]
+      },
+      {
+        "title": "Freelance Software Developer",
+        "client": null,
+        "start": "April 2020",
+        "end": "November 2020",
+        "achievements": [
+          "Modernized architecture and deployment of an automated cryptocurrency trading system.",
+          "Worked with stakeholders to design and build dashboards and internal tools for managing large crypto portfolios."
+        ],
+        "tools": [
+          "Java",
+          "Python",
+          "Docker",
+          "GCP",
+          "OAuth2"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "client": "Vivid Seats",
+        "start": "November 2018",
+        "end": "April 2020",
+        "achievements": [
+          "Lead the migration of seating chart data and related software from Fanxchange to the Vivid Seats platform.",
+          "Worked closely with content team to enhance the workflow for producing live-event seating charts.",
+          "Deployed workflow automation that doubled output of new seating charts.",
+          "Built a real-time dashboard for coverage tracking and quality assurance based on feedback from my team.",
+          "Managed ingestion of thousands of seating charts and associated metadata from three large data acquisitions."
+        ],
+        "tools": [
+          "Typescript",
+          "Javascript",
+          "Python",
+          "Node.js",
+          "Django",
+          "Mapbox",
+          "Electron",
+          "AWS (SQS, S3, CloudFront)"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "client": "Fanxchange",
+        "start": "April 2017",
+        "end": "November 2018",
+        "achievements": [
+          "Engineered an end-to-end solution for industry-leading live-event seating charts.",
+          "Developed sophisticated map renderers for Web, iOS, and Android.",
+          "Created a 360°, gyroscope-enabled 'view from your seat' feature for the web platform.",
+          "Provided technical evaluation of software and related data prior to corporate acquisitions."
+        ],
+        "tools": [
+          "JavaScript",
+          "Python",
+          "Swift",
+          "Vue.js",
+          "Node.js",
+          "Django",
+          "Mapbox",
+          "RabbitMQ",
+          "Redis"
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "client": "Fanxchange",
+        "start": "April 2016",
+        "end": "November 2017",
+        "achievements": [
+          "Worked closely with design team to execute on a complete rewrite/redesign of fanxchange.com.",
+          "Designed and built a solution for deploying customized live-event marketplaces for B2B clients.",
+          "Prototyped an interactive seating chart to replace the existing solution provided by a third-party."
+        ],
+        "tools": [
+          "JavaScript",
+          "Python",
+          "Vue.js",
+          "Angular",
+          "Node.js",
+          "MySQL"
+        ]
+      }
+    ]
+  }
 }

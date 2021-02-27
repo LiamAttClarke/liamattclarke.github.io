@@ -14,8 +14,8 @@
     <div class="resume">
       <header class="resume-header">
         <div class="left">
-          <h1 class="site-title">Liam Atticus Clarke</h1>
-          <h3 class="site-tagline resume-tagline">Software Developer in Toronto, Canada <i class="fab fa-canadian-maple-leaf"></i></h3>
+          <h1 class="resume-title">{{resume.title}}</h1>
+          <h3 class="resume-tagline">{{resume.tagline}}</h3>
         </div>
         <div class="right">
           <div class="resume-contact-detail">{{phone}}&nbsp;&nbsp;<i class="fas fa-phone"></i></div>
@@ -24,63 +24,24 @@
           <a class="resume-contact-detail" href="{{github}}">{{githubLabel}}&nbsp;&nbsp;<i class="fas fa-code-branch"></i></a>
         <div>
       </header>
-      <h2>Experience</h2>
+      {{#resume.experience}}
       <div class="resume-project-entry">
         <header class="resume-project-header">
-          <h3>Senior Software Engineer - Vivid Seats</h3>
-          <h3>July 2019 - Present</h3>
+          <h3>{{title}}{{#client}}&nbsp;-&nbsp;{{client}}{{/client}}</h3>
+          <h3>{{start}} - {{#end}}{{end}}{{/end}}{{^end}}Present{{/end}}</h3>
         </header>
-        <ul>
-          <li>Leading the migration of seating chart data and related software from Fanxchange to the Vivid Seats platform.</li>
+        <ul class="resume-achievements">
+          {{#achievements}}
+          <li>{{.}}</li>          
+          {{/achievements}}
         </ul>
-        <div class="resume-tools-used">TypeScript, JavaScript, Python, Node.js, Django, Mapbox, Electron, AWS (SQS, S3, CloudFront)</div>
-      </div>
-      <div class="resume-project-entry">
-        <header class="resume-project-header">
-          <h3>Contract Software Developer - Vivid Seats</h3>
-          <h3>November 2018 - July 2019</h3>
-        </header>
-        <ul>
-          <li>Worked closely with content team to enhance the workflow for producing live-event seating charts.</li>
-          <li>Deployed workflow automation that doubled output of new seating charts.</li>
-          <li>Built a real-time dashboard for coverage tracking and quality assurance based on feedback from my team.</li>
-          <li>Managed ingestion of thousands of seating charts and associated metadata from three large data acquisitions.</li>
-        </ul>
-        <div class="resume-tools-used">JavaScript, Python, Node.js, Django, Mapbox, Electron, AWS (SQS, S3, CloudFront)</div>
-      </div>
-      <div class="resume-project-entry">
-        <header class="resume-project-header">
-          <h3>Senior Software Developer - Fanxchange</h3>
-          <h3>April 2017 - November 2018</h3>
-        </header>
-        <ul>
-          <li>Engineered an end-to-end solution for industry-leading live-event seating charts.</li>
-          <li>Developed sophisticated map renderers for Web, iOS, and Android.</li>
-          <li>Created a 360&deg;, gyroscope-enabled "view from your seat" feature for the web platform.</li>
-          <li>Provided extensive technical evaluation of companies and data prior to acquisition.</li>
-        </ul>
-        <div class="resume-tools-used">JavaScript, Python, Swift, Vue.js, Node.js, Django, Mapbox, RabbitMQ, Redis</div>
-      </div>
-      <div class="resume-project-entry">
-        <header class="resume-project-header">
-          <h3>Software Developer - Fanxchange</h3>
-          <h3> April 2016 - April 2017</h3>
-        </header>
-        <ul>
-          <li>Worked closely with design team to execute on a complete rewrite/redesign of fanxchange.com.</li>
-          <li>Designed and built a solution for deploying customized live-event marketplaces for B2B clients.</li>
-          <li>Prototyped an interactive seating chart to replace the existing solution provided by a third-party.</li>
-        </ul>
-        <div class="resume-tools-used">JavaScript, Python, Vue.js, Angular, Node.js, Webpack, MySQL</div>
-      </div>
-      <h2>Projects</h2>
-      <div class="resume-project-entry">
-        <header class="resume-project-header">
-          <h3>SVGEO</h3>
-        </header>
-        <p>A utility for converting SVG files to GeoJSON. Unlike the SVG format, GeoJSON does not have mature tooling such as Adobe Illustrator. This utility bridges that gap by generating analogous GeoJSON geometry for use in GIS systems.</p>
-        <div class="resume-tools-used">TypeScript, Node.js</div>
-      </div>
+        <ul class="resume-tools">
+          {{#tools}}
+          <li>{{.}}</li>
+          {{/tools}}
+        </div>
+      </ul>
+      {{/resume.experience}}
     </div>
   </div>
 </body>
