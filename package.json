@@ -1,6 +1,7 @@
 {
   "name": "liamattclarke.github.io",
   "scripts": {
+    "postinstall": "husky install",
     "build": "node build.js"
   },
   "repository": {
