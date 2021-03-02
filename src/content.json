@@ -1,6 +1,6 @@
 {
   "title": "Liam Atticus Clarke",
-  "tagline": "Full Stack Developer in Toronto, Canada",
+  "tagline": "Software Developer in Toronto, Canada",
   "phone": "(647) 701-8622",
   "email": "liam.att.clarke@gmail.com",
   "site": "https://atticus.dev",
@@ -23,25 +23,21 @@
       "link": "/seating-chart.html"
     },
     {
-      "name": "Fanxchange.com",
+      "name": "fanxchange.com",
       "thumb": "/images/fanxchange/thumb.jpg",
       "client": "Fanxchange",
       "description": "Consumer site for Fanxchange's live-event marketplace.",
       "link": "/fanxchange.html"
-    }
-  ],
-  "experiments": [
+    },
     {
       "name": "Stretchy Face",
       "thumb": "/images/stretchy-face/thumb.png",
       "description": "What if my head was made of gelatin?",
       "repo": "https://github.com/LiamAttClarke/stretchy-face",
-      "link": "/stretchy-face"
+      "link": "http://atticus.dev/stretchy-face"
     }
   ],
   "resume": {
-    "title": "Liam Atticus Clarke",
-    "tagline": "Full Stack Developer",
     "experience": [
       {
         "title": "Software Developer",

@@ -7,42 +7,22 @@
 <body>
   <div class="page">
     {{> header}}
-    <p>{{bio}}</p>
+    <p class="card">{{bio}}</p>
     <section class="page-section">
       <div class="section-header">
         <h2 class="no-margin">Projects</h2>
       </div>
-      {{#projects}}
-      <div class="card project-card">
-        <img class="project-thumb" src="{{thumb}}" alt="{{name}} Thumbnail">
-        <div class="project-info">
-          <div class="project-header">
-              <h3 class="no-margin">{{name}}</h3>
-              <span class="project-client">{{client}}</span>
+      <div class="project-grid">
+        {{#projects}}
+        <a class="button button--image" href="{{link}}">
+          <div class="button__paddle">
+            <img class="button__image" src="{{thumb}}" />
+            <span class="button__label">{{name}}</span>            
           </div>
-          <p>{{description}}</p>
-          <a class="project-link" href="{{link}}">Check it out</a>
-        </div>
-      </div>
-      {{/projects}}
-    </section>
-    <section class="page-section">
-      <div class="section-header">
-        <h2 class="no-margin">Experiments</h2>
-      </div>
-      {{#experiments}}
-      <div class="card project-card">
-        <img class="project-thumb" src="{{thumb}}" alt="{{name}} Thumbnail">
-        <div class="project-info">
-          <div class="project-header">
-              <h3 class="no-margin">{{name}}</h3>
-          </div>
-          <p>{{description}}</p>
-          <a class="project-link" href="{{link}}">Check it out</a>
-        </div>
-      </div>
-      {{/experiments}}
-    </section>
+        </a>
+        {{/projects}}
+      </div>      
+    </section>    
     <footer class="site-footer"></footer>
   </div>
 </body>

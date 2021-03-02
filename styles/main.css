@@ -1,38 +1,24 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
 .project-card {
-  display: flex;
-}
-
-.project-thumb {
-  flex-shrink: 0;
-  width: 128px;
-  height: 128px;
-  margin-right: 16px;
-  border-radius: 3px;
-}
-
-.project-info {
   position: relative;
-  flex-grow: 1;
-  padding-bottom: 32px;
+  height: 256px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.project-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.project-client {
-  color: #ddd;
-}
-
-.project-link {
-  float: right;
+.project-card__overlay {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  border-radius: 3px;
-  color: #55acee;
-  font-weight: 500;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .project-screenshot {
@@ -45,35 +31,13 @@
 }
 
 @media screen and (max-width: 640px) {
-  .project-thumb {
-    width: 96px;
-    height: 96px;
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .project-card {
-    padding: 12px;
-  }
+@media screen and (max-width: 480px) {}
 
-  .project-thumb {
-    width: 64px;
-    height: 64px;
-    margin-right: 12px;
-  }
-
-  .project-client {
-    font-size: 12px;
-  }
-
-  .project-link {
-    padding: 4px 8px;
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .project-thumb {
-    display: none;
-  }
-}
+@media screen and (max-width: 320px) {}
