@@ -1,7 +1,6 @@
 {
   "title": "Liam Atticus Clarke",
-  "tagline": "Software Developer in Toronto, Canada",
-  "phone": "(647) 701-8622",
+  "tagline": "Software Developer in Toronto, Canada",  
   "email": "liam.att.clarke@gmail.com",
   "site": "https://atticus.dev",
   "siteLabel": "atticus.dev",
@@ -28,36 +27,39 @@
       "client": "Fanxchange",
       "description": "Consumer site for Fanxchange's live-event marketplace.",
       "link": "/fanxchange.html"
-    },
-    {
-      "name": "Stretchy Face",
-      "thumb": "/images/stretchy-face/thumb.png",
-      "description": "What if my head was made of gelatin?",
-      "repo": "https://github.com/LiamAttClarke/stretchy-face",
-      "link": "http://atticus.dev/stretchy-face"
     }
   ],
   "resume": {
     "experience": [
       {
-        "title": "Software Developer",
+        "title": "Principal Software Engineer",
         "client": "Transitional Forms",
         "start": "November 2020",
         "end": null,
         "achievements": [
-          "Co-designed, and built a real-time generative conversation pipeline for AI agents with modular text generation, speech synthesis, and semantic analysis.",
-          "Built a tool for previewing and directing generated conversations prior to being spoken, enabling directors to influence generation.",
-          "Automated deployment of short-lived clusters on GCP for the purpose of running a reoccurring show that has large CPU/GPU overhead.",
-          "Collaborated with a music producer to develop an emotionally expressive AI music composer."
+          "Co-designed, and built a real-time generative conversation system that enabled a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",          
+          "Designed and Built a web application that enables a multi-director experience for producing a generative show.",
+          "Automated deployment of short-lived compute resources on GCP for the purpose of running a reoccurring show that has large CPU/GPU overhead.",
+          "Collaborated with a music producer to develop an emotionally expressive AI music composer in the browser.",
+          "Built a novel node-based web interface for chaining together ML/procedural generators (primarily Google Magenta models).",
+          "Used chunked generation and rendering techniques to produce a near real-time, modular music generator which encouraged experimentation and play.",
+          "Designed a pipeline for large repositories of assets creative assets that resulted in a graph-based representation of their relationships. This enabled the creation of an asset search engine as well as a pipeline for training ML models."
         ],
         "tools": [
           "Typescript",
           "Python",
-          "Docker",
-          "GCP",
-          "GPT2",
+          "C#",
+          "Unity",
+          "VueJS",
+          "Protocol Buffers & GRPC",
+          "GPT-2",
+          "GPT-3",
+          "Deepmoji",
+          "Tacotron",
           "Tensorflow",
-          "Magenta"
+          "Magenta",
+          "Docker",
+          "GCP"
         ]
       },
       {
@@ -103,13 +105,16 @@
       {
         "title": "Senior Software Engineer",
         "client": "Fanxchange",
-        "start": "April 2017",
+        "start": "April 2016",
         "end": "November 2018",
         "achievements": [
           "Engineered an end-to-end solution for industry-leading live-event seating charts.",
           "Developed sophisticated map renderers for Web, iOS, and Android.",
           "Created a 360°, gyroscope-enabled 'view from your seat' feature for the web platform.",
-          "Provided technical evaluation of software and related data prior to corporate acquisitions."
+          "Provided technical evaluation of software and related data prior to corporate acquisitions.",
+          "Worked closely with design team to execute on a complete rewrite/redesign of fanxchange.com.",
+          "Designed and built a solution for deploying customized live-event marketplaces for B2B clients.",
+          "Prototyped an interactive seating chart to replace the existing solution provided by a third-party."
         ],
         "tools": [
           "JavaScript",
@@ -120,28 +125,10 @@
           "Django",
           "Mapbox",
           "RabbitMQ",
-          "Redis"
-        ]
-      },
-      {
-        "title": "Software Engineer",
-        "client": "Fanxchange",
-        "start": "April 2016",
-        "end": "November 2017",
-        "achievements": [
-          "Worked closely with design team to execute on a complete rewrite/redesign of fanxchange.com.",
-          "Designed and built a solution for deploying customized live-event marketplaces for B2B clients.",
-          "Prototyped an interactive seating chart to replace the existing solution provided by a third-party."
-        ],
-        "tools": [
-          "JavaScript",
-          "Python",
-          "Vue.js",
-          "Angular",
-          "Node.js",
+          "Redis",
           "MySQL"
         ]
-      }
+      }      
     ]
   }
 }

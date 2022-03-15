@@ -2,7 +2,8 @@
   "name": "liamattclarke.github.io",
   "scripts": {
     "postinstall": "husky install",
-    "build": "node build.js"
+    "build": "node build.js",
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -10,6 +11,7 @@
   },
   "devDependencies": {
     "husky": "^5.1.1",
-    "mustache": "^3.0.1"
+    "mustache": "^3.0.1",
+    "serve": "^13.0.2"
   }
 }

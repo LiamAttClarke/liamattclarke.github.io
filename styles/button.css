@@ -1,6 +1,6 @@
 :root {
-  --d-button-offset--accent: 4px;
-  --d-button-offset--idle: 2px;
+  --d-button-offset--accent: 5px;
+  --d-button-offset--idle: 3px;
   --d-button-offset--depressed: 1px;
 }
 
@@ -13,12 +13,11 @@
   border: none;
   outline: none;
   height: var(--d-input-height);
-  border-radius: var(--d-border-radius);
-  background-color: var(--c-grey-9);
+  background-color: var(--c-primary--darker);
   padding: 0;
+  border-radius: var(--d-border-radius);
   font-size: 1em;
   text-decoration: none !important;
-  box-shadow: 0 0 4px 0 var(--c-grey-11);
   transition: background-color var(--t-fastest) ease-in-out;
   /* https://stackoverflow.com/questions/21003535/anyway-to-prevent-the-blue-highlighting-of-elements-in-chrome-when-clicking-quic */
   user-select: none;
@@ -34,10 +33,9 @@
   justify-content: center;
   align-items: center;
   padding: var(--d-button-padding);
-  border: solid 2px var(--c-grey-9);
+  background-color: var(--c-grey-9);
   border-radius: var(--d-border-radius);
-  background-color: var(--c-grey-8);
-  color: var(--c-grey-0);
+  color: white;
   text-align: center;  
   cursor: pointer;
   transition: background-color var(--t-fastest) ease-in-out,
@@ -80,7 +78,6 @@
 
 .button.primary > .button__paddle {
   background-color: var(--c-primary);
-  color: white;
   border: solid 2px var(--c-primary--dark);
 }
 
@@ -148,8 +145,6 @@
   transform: translateX(-50%);
   padding: 0 10px;
   background-color: var(--c-grey-1);
-  border-radius: 12px;
-  color: var(--c-grey-9);
   white-space: nowrap;
   opacity: 0;
   transition: opacity var(--t-fast) ease-in-out;
@@ -160,7 +155,5 @@
 .button__image {
   width: 100%;
   margin-bottom: 8px;
-  background-color: var(--c-grey-7);
-  border-radius: var(--d-border-radius);
-  border: solid 1px var(--c-grey-9);
+  background-color: var(--c-grey-7);  
 }

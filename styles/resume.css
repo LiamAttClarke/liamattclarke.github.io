@@ -25,7 +25,7 @@
 
 .resume {
   width: 8.5in;
-  height: 11in;
+  min-height: 11in;
   padding: .75in;
   font-size: 12px;
   color: black;
