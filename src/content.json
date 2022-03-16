@@ -9,6 +9,18 @@
   "bio": "I'm a creative and passionate developer looking to lend my strengths to an equally passionate team. If you find my work compelling, reach out so we can start building something awesome!",
   "projects": [
     {
+      "name": "Dinner Party",
+      "thumb": "/images/dinner-party/thumb.png",
+      "description": "Real-time generative show that enables a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",
+      "link": "https://transforms.ai/dinner-party"
+    },
+    {
+      "name": "Malakai",
+      "thumb": "/images/malakai/thumb.png",
+      "description": "A novel node-based web interface for chaining together ML/procedural music generators in the browser.",
+      "link": "https://transforms.ai/malakai"
+    },
+    {
       "name": "SVG Plotter",
       "thumb": "/images/svg-plotter/thumb.png",
       "description": "Convert SVG files to GeoJSON for use in mapping software.",
@@ -37,13 +49,11 @@
         "start": "November 2020",
         "end": null,
         "achievements": [
-          "Co-designed, and built a real-time generative conversation system that enabled a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",          
-          "Designed and Built a web application that enables a multi-director experience for producing a generative show.",
-          "Automated deployment of short-lived compute resources on GCP for the purpose of running a reoccurring show that has large CPU/GPU overhead.",
-          "Collaborated with a music producer to develop an emotionally expressive AI music composer in the browser.",
-          "Built a novel node-based web interface for chaining together ML/procedural generators (primarily Google Magenta models).",
-          "Used chunked generation and rendering techniques to produce a near real-time, modular music generator which encouraged experimentation and play.",
-          "Designed a pipeline for large repositories of assets creative assets that resulted in a graph-based representation of their relationships. This enabled the creation of an asset search engine as well as a pipeline for training ML models."
+          "Co-designed, and built a real-time generative show that enabled a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",                              
+          "Built a novel node-based web interface for chaining together ML/procedural music generators (primarily Google Magenta models).",
+          "Used chunked generation and rendering techniques to produce a near real-time, modular music generator which enabled experimentation and play.",
+          "Designed a system for building a graph representation of asset relationships for an Animation Studio enabling them to create ML training workflows, and surface assets via a search engine.",
+          "Automated deployment of short-lived compute resources on GCP for the purpose of running a reoccurring show that has large CPU/GPU overhead."
         ],
         "tools": [
           "Typescript",
@@ -85,10 +95,9 @@
         "start": "November 2018",
         "end": "April 2020",
         "achievements": [
-          "Lead the migration of seating chart data and related software from Fanxchange to the Vivid Seats platform.",
-          "Worked closely with content team to enhance the workflow for producing live-event seating charts.",
-          "Deployed workflow automation that doubled output of new seating charts.",
-          "Built a real-time dashboard for coverage tracking and quality assurance based on feedback from my team.",
+          "Led the migration of seating chart data and related software from Fanxchange to the Vivid Seats platform.",
+          "Worked closely with content team to optimize the workflow for producing live-event seating charts.",
+          "Built a real-time dashboard for coverage tracking and quality assurance based on team feedback.",
           "Managed ingestion of thousands of seating charts and associated metadata from three large data acquisitions."
         ],
         "tools": [
@@ -110,9 +119,9 @@
         "achievements": [
           "Engineered an end-to-end solution for industry-leading live-event seating charts.",
           "Developed sophisticated map renderers for Web, iOS, and Android.",
-          "Created a 360°, gyroscope-enabled 'view from your seat' feature for the web platform.",
+          "Created a 360°, gyroscope-enabled, \"View from Your Seat\" for the web platform.",
           "Provided technical evaluation of software and related data prior to corporate acquisitions.",
-          "Worked closely with design team to execute on a complete rewrite/redesign of fanxchange.com.",
+          "Worked closely with design team to rebuild and modernize fanxchange.com.",
           "Designed and built a solution for deploying customized live-event marketplaces for B2B clients.",
           "Prototyped an interactive seating chart to replace the existing solution provided by a third-party."
         ],
