@@ -36,7 +36,7 @@
   background-color: var(--c-grey-9);
   border-radius: var(--d-border-radius);
   color: white;
-  text-align: center;  
+  text-align: center;
   cursor: pointer;
   transition: background-color var(--t-fastest) ease-in-out,
               border-color var(--t-fastest) ease-in-out,
@@ -155,5 +155,6 @@
 .button__image {
   width: 100%;
   margin-bottom: 8px;
-  background-color: var(--c-grey-7);  
+  background-color: var(--c-grey-7);
+  border-radius: 2px;
 }
