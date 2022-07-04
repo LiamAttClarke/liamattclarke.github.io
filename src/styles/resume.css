@@ -3,26 +3,6 @@
   padding: 0;
 }
 
-.page-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 0;
-}
-
-.resume-title {
-  font-size: 1.75em;
-}
-
-.resume-tagline {
-  margin: 0;
-  color: black;
-  font-weight: 400;
-}
-
-.resume-tagline > .fa-canadian-maple-leaf {
-  color: black;
-}
-
 .resume {
   width: 8.5in;
   min-height: 11in;
@@ -38,64 +18,60 @@
   color: black;
 }
 
-.resume ul {
-  padding-left: 16px;
-}
-
 .resume p {
   text-indent: 16px;
 }
 
-.resume-header {
+.resume__title {
+  font-size: 1.75em;
+}
+
+.resume__tagline {
+  margin: 0;
+  color: black;
+  font-weight: 400;
+}
+
+.resume__tagline > .fa-canadian-maple-leaf {
+  color: black;
+}
+
+.resume__header {
   display: flex;
   justify-content: space-between;
   margin-bottom: .25in;
 }
 
-.resume-header > .right {
+.resume__header > .right {
   text-align: right;
   line-height: 133%;
 }
 
-.resume-contact-detail {
-  display: block;
-  color: black;
-  text-decoration: none;
-}
-
-.resume-project-entry {
+.experience {
   margin: 24px 0;
 }
 
-.resume-project-header {
+.experience__header {
   display: flex;
   justify-content: space-between;
 }
 
-.resume-achievements {
-
-}
-
-.resume-tools {
+.experience__tools {
   list-style-type: none;
   font-size: 12px;
   font-style: italic;
 }
 
-.resume-tools > li {
+.experience__tools > li {
   display: inline;
 }
 
-.resume-tools > li:after {
+.experience__tools > li:after {
   content: ", "
 }
 
-.resume-tools > li:last-child:after {
+.experience__tools > li:last-child:after {
   content: "";
-}
-
-.resume-footer {
-  text-align: center;
 }
 
 @page {
@@ -108,7 +84,7 @@
     margin: 0;
   }
 
-  .page-header {
+  .page__header {
     display: none;
   }
 

@@ -1,6 +1,6 @@
 {
   "title": "Liam Atticus Clarke",
-  "tagline": "Software Developer in Toronto, Canada",
+  "tagline": "Software Engineer from Toronto, Canada",
   "email": "liam.att.clarke@gmail.com",
   "site": "https://atticus.dev",
   "siteLabel": "atticus.dev",
@@ -49,6 +49,95 @@
     }
   ],
   "resume": {
+    "summary": {
+      "strengths": [
+        {
+          "label": "Communication",
+          "description": "I clearly communicate complex topics in a manner that is relevant and resonant with stakeholders."
+        },
+        {
+          "label": "Creativity",
+          "description": "For me, software design and development is a deeply engrossing creative activity. This creativity, applied to engineering, enables me to solve problems in novel domains."
+        },
+        {
+          "label": "Care",
+          "description": "I place great consideration into my work as well as the resulting implications on the individuals extending and interfacing with it."
+        }
+      ],
+      "skills": [
+        {
+          "label": "Languages",
+          "values": [
+            "TypeScript",
+            "JavaScript",
+            "Python",
+            "C#",
+            "Java",
+            "GLSL"
+          ]
+        },
+        {
+          "label": "Libraries & Frameworks",
+          "values": [
+            "React",
+            "Vue",
+            "Unity",
+            "Django",
+            "Electron",
+            "Mapbox"
+          ]
+        },
+        {
+          "label": "Databases",
+          "values": [
+            "PostgreSQL",
+            "MySQL",
+            "MariaDB",
+            "Neo4j"
+          ]
+        },
+        {
+          "label": "Protocols & Standards",
+          "values": [
+            "Protocol Buffers",
+            "GRPC",
+            "GraphQL",
+            "REST",
+            "OAuth2"
+          ]
+        },
+        {
+          "label": "Tools & Services",
+          "values": [
+            "NodeJS",
+            "Redis",
+            "RabbitMQ",
+            "NGINX"
+          ]
+        },
+        {
+          "label": "Dev Ops",
+          "values": [
+            "Amazon Web Services (AWS)",
+            "Google Cloud Platform (GCP)",
+            "Kubernetes",
+            "Docker",
+            "GitHub Actions",
+            "Jenkins"
+          ]
+        },
+        {
+          "label": "Machine Learning",
+          "values": [
+            "Tensorflow",
+            "Google Magenta",
+            "GPT-2",
+            "GPT-3",
+            "Deepmoji"
+          ]
+        }
+      ]
+    },
     "experience": [
       {
         "title": "Principal Software Engineer",
@@ -69,6 +158,8 @@
           "Unity",
           "VueJS",
           "Protocol Buffers & GRPC",
+          "Neo4j",
+          "RabbitMQ",
           "GPT-2",
           "GPT-3",
           "Deepmoji",
