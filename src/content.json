@@ -1,6 +1,6 @@
 {
   "title": "Liam Atticus Clarke",
-  "tagline": "Software Developer in Toronto, Canada",  
+  "tagline": "Software Developer in Toronto, Canada",
   "email": "liam.att.clarke@gmail.com",
   "site": "https://atticus.dev",
   "siteLabel": "atticus.dev",
@@ -39,6 +39,13 @@
       "client": "Fanxchange",
       "description": "Consumer site for Fanxchange's live-event marketplace.",
       "link": "/fanxchange.html"
+    },
+    {
+      "name": "Unity Mesh Slicer",
+      "thumb": "/images/unity-mesh-slicer/thumb.jpg",
+      "client": null,
+      "description": "Real-time 3D geometry bisection. Works with both convex and non-convex geometries.",
+      "link": "https://github.com/LiamAttClarke/unity-mesh-slicer"
     }
   ],
   "resume": {
@@ -49,7 +56,7 @@
         "start": "November 2020",
         "end": null,
         "achievements": [
-          "Co-designed, and built a real-time generative show that enabled a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",                              
+          "Co-designed, and built a real-time generative show that enabled a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",
           "Built a novel node-based web interface for chaining together ML/procedural music generators (primarily Google Magenta models).",
           "Used chunked generation and rendering techniques to produce a near real-time, modular music generator which enabled experimentation and play.",
           "Designed a system for building a graph representation of asset relationships for an Animation Studio enabling them to create ML training workflows, and surface assets via a search engine.",
@@ -137,7 +144,7 @@
           "Redis",
           "MySQL"
         ]
-      }      
+      }
     ]
   }
 }
