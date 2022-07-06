@@ -47,12 +47,15 @@
             <h3>{{title}}{{#client}}&nbsp;-&nbsp;{{client}}{{/client}}</h3>
             <h3>{{start}} - {{#end}}{{end}}{{/end}}{{^end}}Present{{/end}}</h3>
           </header>
-          <ul class="experience__achievements">
+          {{#projects}}
+          <h4>{{name}} - {{description}}</h4>
+          <ul>
             {{#achievements}}
             <li>{{.}}</li>
             {{/achievements}}
           </ul>
-        </ul>
+          {{/projects}}
+        </div>
         {{/resume.experience}}
       </section>
     </div>

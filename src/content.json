@@ -144,30 +144,34 @@
         "client": "Transitional Forms",
         "start": "November 2020",
         "end": null,
-        "achievements": [
-          "Co-designed, and built a real-time generative show that enabled a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",
-          "Built a novel node-based web interface for chaining together ML/procedural music generators (primarily Google Magenta models).",
-          "Used chunked generation and rendering techniques to produce a near real-time, modular music generator which enabled experimentation and play.",
-          "Designed a system for building a graph representation of asset relationships for an Animation Studio enabling them to create ML training workflows, and surface assets via a search engine.",
-          "Automated deployment of short-lived compute resources on GCP for the purpose of running a reoccurring show that has large CPU/GPU overhead."
-        ],
-        "tools": [
-          "Typescript",
-          "Python",
-          "C#",
-          "Unity",
-          "VueJS",
-          "Protocol Buffers & GRPC",
-          "Neo4j",
-          "RabbitMQ",
-          "GPT-2",
-          "GPT-3",
-          "Deepmoji",
-          "Tacotron",
-          "Tensorflow",
-          "Magenta",
-          "Docker",
-          "GCP"
+        "projects": [
+          {
+            "name": "TFTV",
+            "description": "Real-time generative show that enables a 3-way authorship dynamic between ML models, human/machine directors, and a live audience.",
+            "achievements": [
+              "Co-designed and built a sophisticated system that elevated human creativity and opened many creative opportunities.",
+              "Made custom tools for content creators to produce their own narrative structures powered by machine intelligence.",
+              "Developed \"Director's Chair\", a reactive web-interface for directing live shows."
+            ]
+          },
+          {
+            "name": "Asset Engine",
+            "description": "System for building a graph representation of asset relationships, enabling the creation of ML training workflows.",
+            "achievements": [
+              "Architected a modular system with extension points for expanding supported file types and additional relational mappings.",
+              "Built a search engine on top of the graph that returned asset files ranked by strength of relationship.",
+              "Provided detailed usage and developer documentation to ensure successful handoff to future developers and users of the system."
+            ]
+          },
+          {
+            "name": "Malakai",
+            "description": "A tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
+            "achievements": [
+              "Used chunked generation and rendering techniques to produce a near real-time, modular music generator which enabled experimentation and play.",
+              "Created a custom node-graph web interface for configuring and connecting music blocks.",
+              "Worked closely with accomplished musicians, and producers to shape the concept and eventual form of the project."
+            ]
+          }
         ]
       },
       {
