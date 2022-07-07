@@ -6,8 +6,8 @@
 .resume {
   width: 8.5in;
   min-height: 11in;
-  padding: .75in;
-  font-size: 12px;
+  padding: 0.75in;
+  font-size: 10pt;
   color: black;
   line-height: 150%;
   background: white;
@@ -20,6 +20,10 @@
 
 .resume p {
   text-indent: 16px;
+}
+
+.resume > section {
+  margin: 16px 0;
 }
 
 .resume__title {
@@ -48,7 +52,7 @@
 }
 
 .experience {
-  margin: 24px 0;
+  margin: 16px 0;
 }
 
 .experience__header {
@@ -74,12 +78,21 @@
   content: "";
 }
 
-@page {
-  size: letter;
-  margin: 0;
-}
 
 @media print {
+  @page {
+    size: letter;
+    margin: 0.75in;
+  }
+
+  @page :header {
+    display: none;
+  }
+
+  @page :footer {
+    display: none;
+  }
+
   .page {
     margin: 0;
   }
@@ -88,7 +101,7 @@
     display: none;
   }
 
-  .document {
-    box-shadow: none;
+  .resume {
+    padding: 0;
   }
 }

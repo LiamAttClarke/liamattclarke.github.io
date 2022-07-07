@@ -160,14 +160,16 @@
             "achievements": [
               "Architected a modular system with extension points for expanding supported file types and additional relational mappings.",
               "Built a search engine on top of the graph that returned asset files ranked by strength of relationship.",
-              "Provided detailed usage and developer documentation to ensure successful handoff to future developers and users of the system."
+              "Provided detailed usage and developer documentation to ensure successful handoff to future developers and users of the system.",
+              "Hired and managed a developer.",
+              "Acted as the primary point of contact for project clients."
             ]
           },
           {
             "name": "Malakai",
-            "description": "A tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
+            "description": "Tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
             "achievements": [
-              "Used chunked generation and rendering techniques to produce a near real-time, modular music generator which enabled experimentation and play.",
+              "Used chunked generation and rendering techniques to produce a near real-time music generation tool which enabled experimentation and play.",
               "Created a custom node-graph web interface for configuring and connecting music blocks.",
               "Worked closely with accomplished musicians, and producers to shape the concept and eventual form of the project."
             ]
@@ -175,42 +177,21 @@
         ]
       },
       {
-        "title": "Freelance Software Developer",
-        "client": null,
-        "start": "April 2020",
-        "end": "November 2020",
-        "achievements": [
-          "Modernized architecture and deployment of an automated cryptocurrency trading system.",
-          "Worked with stakeholders to design and build dashboards and internal tools for managing large crypto portfolios."
-        ],
-        "tools": [
-          "Java",
-          "Python",
-          "Docker",
-          "GCP",
-          "OAuth2"
-        ]
-      },
-      {
         "title": "Senior Software Engineer",
         "client": "Vivid Seats",
         "start": "November 2018",
         "end": "April 2020",
-        "achievements": [
-          "Led the migration of seating chart data and related software from Fanxchange to the Vivid Seats platform.",
-          "Worked closely with content team to optimize the workflow for producing live-event seating charts.",
-          "Built a real-time dashboard for coverage tracking and quality assurance based on team feedback.",
-          "Managed ingestion of thousands of seating charts and associated metadata from three large data acquisitions."
-        ],
-        "tools": [
-          "Typescript",
-          "Javascript",
-          "Python",
-          "Node.js",
-          "Django",
-          "Mapbox",
-          "Electron",
-          "AWS (SQS, S3, CloudFront)"
+        "projects": [
+          {
+            "name": "Seating Charts",
+            "description": "Interactive 3D interface for discovering the best seats at your next live event.",
+            "achievements": [
+              "Led the migration of seating chart data and related software from Fanxchange to the Vivid Seats platform.",
+              "Worked closely with content team to optimize the workflow for producing live-event seating charts.",
+              "Built a real-time dashboard for coverage tracking and quality assurance based on team feedback.",
+              "Managed ingestion of thousands of seating charts and associated metadata from three large data acquisitions."
+            ]
+          }
         ]
       },
       {
@@ -218,26 +199,25 @@
         "client": "Fanxchange",
         "start": "April 2016",
         "end": "November 2018",
-        "achievements": [
-          "Engineered an end-to-end solution for industry-leading live-event seating charts.",
-          "Developed sophisticated map renderers for Web, iOS, and Android.",
-          "Created a 360°, gyroscope-enabled, \"View from Your Seat\" for the web platform.",
-          "Provided technical evaluation of software and related data prior to corporate acquisitions.",
-          "Worked closely with design team to rebuild and modernize fanxchange.com.",
-          "Designed and built a solution for deploying customized live-event marketplaces for B2B clients.",
-          "Prototyped an interactive seating chart to replace the existing solution provided by a third-party."
-        ],
-        "tools": [
-          "JavaScript",
-          "Python",
-          "Swift",
-          "Vue.js",
-          "Node.js",
-          "Django",
-          "Mapbox",
-          "RabbitMQ",
-          "Redis",
-          "MySQL"
+        "projects": [
+          {
+            "name": "Seating Charts",
+            "description": "Interactive 3D interface for discovering the best seats at your next live event.",
+            "achievements": [
+              "Prototyped an interactive seating chart to replace the existing solution provided by a third-party.",
+              "Engineered an end-to-end solution for industry-leading live-event seating charts.",
+              "Developed sophisticated map renderers for Web, iOS, and Android."
+            ]
+          },
+          {
+            "name": "Live Event Marketplace",
+            "description": "Marketplace for purchasing tickets to live events across North-America.",
+            "achievements": [
+              "Worked closely with design team to rebuild and modernize fanxchange.com.",
+              "Designed and built a solution for deploying customized live-event marketplaces for B2B clients.",
+              "Created a 360°, gyroscope-enabled, \"View from Your Seat\" for the web platform."
+            ]
+          }
         ]
       }
     ]
