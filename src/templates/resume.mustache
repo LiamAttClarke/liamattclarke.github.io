@@ -24,14 +24,6 @@
         <div>
       </header>
       <section>
-        <h2>Key Strengths</h2>
-        <ul class="strengths">
-          {{#resume.summary.strengths}}
-          <li><b>{{label}}</b> - {{description}}</li>
-          {{/resume.summary.strengths}}
-        </ul>
-      </section>
-      <section>
         <h2>Technical Skills</h2>
         <ul>
           {{#resume.summary.skills}}
@@ -48,12 +40,14 @@
             <h3>{{start}} - {{#end}}{{end}}{{/end}}{{^end}}Present{{/end}}</h3>
           </header>
           {{#projects}}
-          <h4>{{name}} - {{description}}</h4>
-          <ul>
-            {{#achievements}}
-            <li>{{.}}</li>
-            {{/achievements}}
-          </ul>
+          <section class="project">
+            <h4>{{name}} - <i class="project__description">{{description}}</i></h4>
+            <ul>
+              {{#achievements}}
+              <li>{{.}}</li>
+              {{/achievements}}
+            </ul>
+          </section>
           {{/projects}}
         </div>
         {{/resume.experience}}

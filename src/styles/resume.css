@@ -78,6 +78,17 @@
   content: "";
 }
 
+.project {
+  margin-bottom: 16px;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.project__description {
+  font-weight: normal;
+}
 
 @media print {
   @page {
