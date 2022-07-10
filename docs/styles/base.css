@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-p {  
+p {
   line-height: 150%;
 }
 
@@ -82,7 +82,7 @@ hr {
 
 ol, ul {
   color: #ddd;
-  padding-left: 24px;
+  padding-left: 16px;
   margin: 8px 0;
 }
 
@@ -123,101 +123,21 @@ input:focus {
   margin: 0;
 }
 
-.page {
-  width: 840px;
-  margin: 0 auto 32px auto;
-  padding: 0 16px;
-}
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 48px 0;
-}
-
-.site-header a:not(:hover) {
-  text-decoration: none;
-}
-
-.site-header > .left:hover {
-  text-decoration: none;
-  color: var(--c-text);
-}
-.site-header > .right {
-  text-align: right;
-}
-
-.site-title {
-  font-size: 1.75em;
-}
-
-.site-tagline {
+.list--inline {
+  display: inline;
+  list-style: none;
+  padding: 0;
   margin: 0;
-  font-weight: 400;
 }
 
-.site-tagline > .fa-canadian-maple-leaf {
-  color: #db0000;
+.list--inline > li  {
+  display: inline;
 }
 
-.site-header-link {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  line-height: 150%;
-}
-.site-header-link > i {
-  padding: 0 4px;
+.list--inline > li::after {
+  content: ", ";
 }
 
-.site-footer {
-  margin: 32px 0;
-}
-
-.page-section {
-  margin: 32px 0;
-}
-
-.section-header {
-  margin: 16px 0;
-}
-
-.card {
-  padding: 16px;
-  border-radius: var(--d-border-radius);
-  background-color: var(--c-primary--dark);
-}
-.card:last-of-type {
-  margin-bottom: 0;
-}
-
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-@media screen and (max-width: 840px) {
-  .page {
-    width: 100vw;
-    padding: 0 16px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .site-header {
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-  .site-header > .left {
-    margin-bottom: 8px;
-  }
-  .site-header > .right {
-    text-align: left;
-  }
-
-  .site-header-link {
-    flex-direction: row-reverse;
-  }
+.list--inline > li:last-child:after {
+  content: "";
 }

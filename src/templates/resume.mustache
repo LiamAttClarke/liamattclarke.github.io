@@ -7,40 +7,51 @@
 </head>
 <body>
   <div class="page page--resume">
-    <div class="page-header">
+    <div class="page__header">
       <a href="/"><i class="fas fa-arrow-left"></i> Back</a>
       <a class="print-link" href="#" onclick="window.print();">Print this page <i class="fas fa-print"></i></a>
     </div>
     <div class="resume">
-      <header class="resume-header">
+      <header class="resume__header">
         <div class="left">
           <h1 class="resume-title">{{title}}</h1>
           <h3 class="resume-tagline">{{tagline}} <i class="fab fa-canadian-maple-leaf"></i></h3>
         </div>
-        <div class="right">
-          <a class="resume-contact-detail" href="mailto:{{email}}">{{email}}&nbsp;&nbsp;<i class="far fa-envelope"></i></a>
-          <a class="resume-contact-detail" href="{{site}}">{{siteLabel}}&nbsp;&nbsp;<i class="fas fa-globe-americas"></i></a>
-          <a class="resume-contact-detail" href="{{github}}">{{githubLabel}}&nbsp;&nbsp;<i class="fas fa-code-branch"></i></a>
+        <div class="right contact-details">
+          <a href="mailto:{{email}}">{{email}}&nbsp;&nbsp;<i class="far fa-envelope"></i></a>
+          <a href="{{site}}">{{siteLabel}}&nbsp;&nbsp;<i class="fas fa-globe-americas"></i></a>
+          <a href="{{github}}">{{githubLabel}}&nbsp;&nbsp;<i class="fas fa-code-branch"></i></a>
         <div>
       </header>
-      {{#resume.experience}}
-      <div class="resume-project-entry">
-        <header class="resume-project-header">
-          <h3>{{title}}{{#client}}&nbsp;-&nbsp;{{client}}{{/client}}</h3>
-          <h3>{{start}} - {{#end}}{{end}}{{/end}}{{^end}}Present{{/end}}</h3>
-        </header>
-        <ul class="resume-achievements">
-          {{#achievements}}
-          <li>{{.}}</li>          
-          {{/achievements}}
+      <section>
+        <h2>Technical Skills</h2>
+        <ul>
+          {{#resume.summary.skills}}
+          <li><b>{{label}}:</b> <ul class="list--inline">{{#values}}<li>{{.}}</li>{{/values}}</li></ul></li>
+          {{/resume.summary.skills}}
         </ul>
-        <ul class="resume-tools">
-          {{#tools}}
-          <li>{{.}}</li>
-          {{/tools}}
+      </section>
+      <section>
+        <h2>Experience</h2>
+        {{#resume.experience}}
+        <div class="experience">
+          <header class="experience__header">
+            <h3>{{title}}{{#client}}&nbsp;-&nbsp;{{client}}{{/client}}</h3>
+            <h3>{{start}} - {{#end}}{{end}}{{/end}}{{^end}}Present{{/end}}</h3>
+          </header>
+          {{#projects}}
+          <section class="project">
+            <h4>{{name}} - <i class="project__description">{{description}}</i></h4>
+            <ul>
+              {{#achievements}}
+              <li>{{.}}</li>
+              {{/achievements}}
+            </ul>
+          </section>
+          {{/projects}}
         </div>
-      </ul>
-      {{/resume.experience}}
+        {{/resume.experience}}
+      </section>
     </div>
   </div>
 </body>

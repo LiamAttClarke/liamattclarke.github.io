@@ -3,31 +3,11 @@
   padding: 0;
 }
 
-.page-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 0;
-}
-
-.resume-title {
-  font-size: 1.75em;
-}
-
-.resume-tagline {
-  margin: 0;
-  color: black;
-  font-weight: 400;
-}
-
-.resume-tagline > .fa-canadian-maple-leaf {
-  color: black;
-}
-
 .resume {
   width: 8.5in;
   min-height: 11in;
-  padding: .75in;
-  font-size: 12px;
+  padding: 0.75in;
+  font-size: 10pt;
   color: black;
   line-height: 150%;
   background: white;
@@ -38,81 +18,101 @@
   color: black;
 }
 
-.resume ul {
-  padding-left: 16px;
-}
-
 .resume p {
   text-indent: 16px;
 }
 
-.resume-header {
+.resume > section {
+  margin: 16px 0;
+}
+
+.resume__title {
+  font-size: 1.75em;
+}
+
+.resume__tagline {
+  margin: 0;
+  color: black;
+  font-weight: 400;
+}
+
+.resume__tagline > .fa-canadian-maple-leaf {
+  color: black;
+}
+
+.resume__header {
   display: flex;
   justify-content: space-between;
   margin-bottom: .25in;
 }
 
-.resume-header > .right {
+.resume__header > .right {
   text-align: right;
   line-height: 133%;
 }
 
-.resume-contact-detail {
-  display: block;
-  color: black;
-  text-decoration: none;
+.experience {
+  margin: 16px 0;
 }
 
-.resume-project-entry {
-  margin: 24px 0;
-}
-
-.resume-project-header {
+.experience__header {
   display: flex;
   justify-content: space-between;
 }
 
-.resume-achievements {
-
-}
-
-.resume-tools {
+.experience__tools {
   list-style-type: none;
   font-size: 12px;
   font-style: italic;
 }
 
-.resume-tools > li {
+.experience__tools > li {
   display: inline;
 }
 
-.resume-tools > li:after {
+.experience__tools > li:after {
   content: ", "
 }
 
-.resume-tools > li:last-child:after {
+.experience__tools > li:last-child:after {
   content: "";
 }
 
-.resume-footer {
-  text-align: center;
+.project {
+  margin-bottom: 16px;
 }
 
-@page {
-  size: letter;
-  margin: 0;
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.project__description {
+  font-weight: normal;
 }
 
 @media print {
+  @page {
+    size: letter;
+    margin: 0.75in;
+  }
+
+  @page :header {
+    display: none;
+  }
+
+  @page :footer {
+    display: none;
+  }
+
   .page {
     margin: 0;
   }
 
-  .page-header {
+  .page__header {
     display: none;
   }
 
-  .document {
-    box-shadow: none;
+  .resume {
+    padding: 0;
   }
 }

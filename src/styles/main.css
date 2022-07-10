@@ -30,6 +30,115 @@
   margin-bottom: 0;
 }
 
+.page {
+  width: 840px;
+  margin: 0 auto 32px auto;
+  padding: 0 16px;
+}
+
+.page__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.site__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0;
+}
+
+.site__header a:not(:hover) {
+  text-decoration: none;
+}
+
+.site__header > .left:hover {
+  text-decoration: none;
+  color: var(--c-text);
+}
+.site__header > .right {
+  text-align: right;
+}
+
+.contact-details > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  line-height: 150%;
+}
+
+.site__title {
+  font-size: 1.75em;
+}
+
+.site__tagline {
+  margin: 0;
+  font-weight: 400;
+}
+
+.site__tagline > .fa-canadian-maple-leaf {
+  color: #db0000;
+}
+
+.site__header-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 150%;
+}
+.site__header-link > i {
+  padding: 0 4px;
+}
+
+.site__footer {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.page__section {
+  margin: 32px 0;
+}
+
+.section__header {
+  margin: 16px 0;
+}
+
+.card {
+  padding: 16px;
+  border-radius: var(--d-border-radius);
+  background-color: var(--c-primary--dark);
+}
+.card:last-of-type {
+  margin-bottom: 0;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 840px) {
+  .page {
+    width: 100vw;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .site__header {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .site__header > .left {
+    margin-bottom: 8px;
+  }
+  .site__header > .right {
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -41,3 +150,4 @@
 @media screen and (max-width: 480px) {}
 
 @media screen and (max-width: 320px) {}
+
