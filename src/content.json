@@ -74,7 +74,8 @@
             "NodeJS",
             "Redis",
             "RabbitMQ",
-            "NGINX"
+            "NGINX",
+            "ThreeJS"
           ]
         },
         {
@@ -124,7 +125,7 @@
         "title": "Principal Software Engineer",
         "client": "Transitional Forms",
         "start": "November 2020",
-        "end": null,
+        "end": "July 2022",
         "projects": [
           {
             "name": "TFTV",
@@ -132,17 +133,16 @@
             "achievements": [
               "Co-designed and developed a sophisticated system for running a realtime generative TV show.",
               "Built custom tools for content creators to produce their own narrative structures powered by machine intelligence.",
-              "Developed \"Director's Chair\", a reactive web-interface for directing live shows."
+              "Supported a weekly live-stream on Twitch with guest directors and direct audience control."
             ]
           },
           {
             "name": "Asset Engine",
             "description": "System for building a graph representation of creative assets, enabling the creation of ML training workflows.",
             "achievements": [
+              "Facilitated the ingestion and processing of over 10 years of assets from a notable animated YouTube series.",
               "Architected a modular system with extension points for expanding supported file types and relational mapping techniques.",
-              "Built a search engine that returned files ranked by strength of relationship in the graph.",
-              "Provided detailed usage and developer documentation to ensure successful handoff to future developers and users.",
-              "Hired and managed a developer and acted as the primary point of contact for project clients."
+              "Acted as the primary point of contact for project clients throughout development and handoff."
             ]
           },
           {
@@ -168,7 +168,6 @@
             "achievements": [
               "Led migration of seating chart data and related software from Fanxchange to Vivid Seats.",
               "Worked closely with content team to optimize the workflow for producing seating charts.",
-              "Built a dashboard for coverage tracking and quality assurance based on team feedback.",
               "Conducted ETL on thousands of seating charts from three large data acquisitions."
             ]
           }
@@ -186,7 +185,7 @@
             "achievements": [
               "Prototyped an interactive seating chart to replace the existing solution provided by a third-party.",
               "Engineered an end-to-end solution for industry-leading live-event seating charts.",
-              "Developed 3D map renderers for Web, iOS, and Android."
+              "Caught the attention of a large industry player that eventually lead to an aquisition."
             ]
           },
           {
@@ -195,7 +194,7 @@
             "achievements": [
               "Worked closely with design team to rebuild and modernize fanxchange.com.",
               "Designed and built a solution for deploying customized live-event marketplaces for B2B clients.",
-              "Created a 360°, gyroscope-enabled, \"View from Your Seat\" feature for the web platform."
+              "Created a 360°, gyroscope-enabled, \"View from Your Seat\" feature for mobile shoppers."
             ]
           }
         ]
