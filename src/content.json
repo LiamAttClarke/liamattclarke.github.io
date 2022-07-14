@@ -49,77 +49,85 @@
     }
   ],
   "resume": {
-    "summary": {
-      "skills": [
-        {
-          "label": "Languages",
-          "values": [
-            "TypeScript",
-            "JavaScript",
-            "Python",
-            "C#",
-            "Java",
-            "GLSL"
-          ]
-        },
-        {
-          "label": "Tools",
-          "values": [
-            "React",
-            "Vue",
-            "Unity",
-            "Django",
-            "Electron",
-            "Mapbox",
-            "NodeJS",
-            "Redis",
-            "RabbitMQ",
-            "NGINX",
-            "ThreeJS"
-          ]
-        },
-        {
-          "label": "Databases",
-          "values": [
-            "PostgreSQL",
-            "MySQL",
-            "MariaDB",
-            "Neo4j"
-          ]
-        },
-        {
-          "label": "Protocols & Standards",
-          "values": [
-            "Protocol Buffers",
-            "GRPC",
-            "GraphQL",
-            "REST",
-            "OAuth2"
-          ]
-        },
-        {
-          "label": "Dev Ops",
-          "values": [
-            "Amazon Web Services (AWS)",
-            "Google Cloud Platform (GCP)",
-            "Kubernetes",
-            "Docker",
-            "GitHub Actions",
-            "Jenkins"
-          ]
-        },
-        {
-          "label": "Machine Learning",
-          "values": [
-            "Tensorflow",
-            "Google Magenta",
-            "GPT-2",
-            "GPT-3",
-            "Deepmoji"
-          ]
-        }
-      ]
-    },
+    "skills": [
+      {
+        "label": "Languages",
+        "values": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "C#",
+          "Java",
+          "Go"
+        ]
+      },
+      {
+        "label": "Web",
+        "values": [
+          "HTML",
+          "CSS",
+          "SASS",
+          "React",
+          "Vue",
+          "WebGL",
+          "ThreeJS"
+        ]
+      },
+      {
+        "label": "Databases",
+        "values": [
+          "PostgreSQL",
+          "MySQL",
+          "MariaDB",
+          "Neo4j"
+        ]
+      },
+      {
+        "label": "Protocols & Standards",
+        "values": [
+          "Protocol Buffers",
+          "GRPC",
+          "GraphQL",
+          "REST",
+          "OAuth2"
+        ]
+      },
+      {
+        "label": "Dev Ops",
+        "values": [
+          "Amazon Web Services (AWS)",
+          "Google Cloud Platform (GCP)",
+          "Kubernetes",
+          "Docker",
+          "GitHub Actions",
+          "Jenkins"
+        ]
+      },
+      {
+        "label": "Machine Learning",
+        "values": [
+          "Tensorflow",
+          "Google Magenta",
+          "GPT-2",
+          "GPT-3",
+          "Deepmoji"
+        ]
+      },
+      {
+        "label": "Other",
+        "values": [
+          "NodeJS",
+          "Electron",
+          "Django",
+          "Redis",
+          "RabbitMQ",
+          "NGINX",
+          "Unity",
+          "Mapbox",
+          "GLSL"
+        ]
+      }
+    ],
     "experience": [
       {
         "title": "Principal Software Engineer",
@@ -128,7 +136,7 @@
         "end": "July 2022",
         "projects": [
           {
-            "name": "TFTV",
+            "name": "Generative Show",
             "description": "Real-time generative show that enables a 3-way authorship dynamic between ML models, human/machine directors, and a live audience.",
             "achievements": [
               "Co-designed and developed a sophisticated system for running a realtime generative TV show.",
@@ -137,16 +145,17 @@
             ]
           },
           {
-            "name": "Asset Engine",
-            "description": "System for building a graph representation of creative assets, enabling the creation of ML training workflows.",
+            "name": "Asset Graph",
+            "description": "System for building a searchable graph of files, enabling the creation of ML training workflows.",
             "achievements": [
-              "Facilitated the ingestion and processing of over 10 years of assets from a notable animated YouTube series.",
               "Architected a modular system with extension points for expanding supported file types and relational mapping techniques.",
-              "Acted as the primary point of contact for project clients throughout development and handoff."
+              "Facilitated the ingestion and enrichment of 400k+ assets spanning over 10 years of production for a notable animated YouTube series.",
+              "Acted as the primary point of contact for project clients throughout planning, development, and delivery.",
+              "Ensured deliverable was compliant with software licenses and helped define an appropriate commercial license for clients."
             ]
           },
           {
-            "name": "Malakai",
+            "name": "AI Music Generator",
             "description": "Tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
             "achievements": [
               "Used chunked generation and rendering techniques to produce a near real-time music generation tool which enabled experimentation and play.",
@@ -185,7 +194,7 @@
             "achievements": [
               "Prototyped an interactive seating chart to replace the existing solution provided by a third-party.",
               "Engineered an end-to-end solution for industry-leading live-event seating charts.",
-              "Caught the attention of a large industry player that eventually lead to an aquisition."
+              "Caught the attention of a large industry player that eventually led to an aquisition."
             ]
           },
           {
