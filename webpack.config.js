@@ -69,7 +69,7 @@ module.exports = {
     path: PUBLIC_PATH,
     filename: "bundle.js",
     // This deletes the output of the hacky mustache plugin
-    clean: true
+    // clean: true
   },
   devServer: {
     static: {
