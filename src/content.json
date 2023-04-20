@@ -1,5 +1,5 @@
 {
-  "title": "Liam Atticus Clarke",
+  "title": "Liam A. Clarke",
   "tagline": "Software Engineer",
   "email": "liam.att.clarke@gmail.com",
   "site": "https://atticus.dev",
@@ -7,47 +7,79 @@
   "github": "https://github.com/LiamAttClarke",
   "githubLabel": "github.com/LiamAttClarke",
   "bio": "I'm a creative and passionate developer looking to lend my strengths to an equally passionate team. If you find my work compelling, reach out so we can start building something awesome!",
-  "projects": [
-    {
-      "name": "Dinner Party",
-      "thumb": "/images/dinner-party/thumb.png",
+  "projects": {
+    "robots-make-tv": {
+      "name": "RobotsMakeTV",
+      "thumb": "/images/robots-make-tv/thumb.jpg",
       "description": "Real-time generative show that enables a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",
-      "link": "https://transforms.ai/dinner-party"
+      "link": "/robots-make-tv.html",
+      "gallery": [
+        "/images/robots-make-tv/1.jpg",
+        "/images/robots-make-tv/2.jpg",
+        "/images/robots-make-tv/3.jpg",
+        "/images/robots-make-tv/4.jpg",
+        "/images/robots-make-tv/5.jpg",
+        "/images/robots-make-tv/6.jpg",
+        "/images/robots-make-tv/7.jpg",
+        "/images/robots-make-tv/8.jpg",
+        "/images/robots-make-tv/9.jpg"
+      ]
     },
-    {
-      "name": "Malakai",
-      "thumb": "/images/malakai/thumb.png",
-      "description": "A novel node-based web interface for chaining together ML/procedural music generators in the browser.",
-      "link": "https://transforms.ai/malakai"
+    "ai-music-blocks": {
+      "name": "AI Music Blocks",
+      "thumb": "/images/ai-music-blocks/thumb.png",
+      "description": "No-code tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
+      "link": "/ai-music-blocks.html"
     },
-    {
+    "svg-plotter": {
       "name": "SVG Plotter",
       "thumb": "/images/svg-plotter/thumb.png",
       "description": "Convert SVG files to GeoJSON for use in mapping software.",
       "link": "https://atticus.dev/svg-plotter/demo/index.html"
     },
-    {
-      "name": "Interactive Seating Charts",
-      "thumb": "/images/seating-chart/thumb.jpg",
+    "venue-maps": {
+      "name": "Venue Maps",
+      "thumb": "/images/venue-maps/thumb.jpg",
       "client": "Fanxchange",
       "description": "Find the best seats in the house for thousands of popular venues. Narrow your search by selecting sections or simply zoom in to filter tickets to visible rows.",
-      "link": "/seating-chart.html"
+      "link": "/venue-maps.html",
+      "gallery": [
+        "/images/venue-maps/1.jpg",
+        "/images/venue-maps/2.jpg",
+        "/images/venue-maps/3.jpg",
+        "/images/venue-maps/4.jpg",
+        "/images/venue-maps/5.jpg",
+        "/images/venue-maps/6.jpg"
+      ]
     },
-    {
+    "fanxchange": {
       "name": "fanxchange.com",
       "thumb": "/images/fanxchange/thumb.jpg",
       "client": "Fanxchange",
       "description": "Consumer site for Fanxchange's live-event marketplace.",
-      "link": "/fanxchange.html"
+      "link": "/fanxchange.html",
+      "gallery": [
+        "/images/fanxchange/1.jpg",
+        "/images/fanxchange/2.jpg",
+        "/images/fanxchange/3.jpg",
+        "/images/fanxchange/4.jpg"
+      ]
     },
-    {
+    "unity-mesh-slicer": {
       "name": "Unity Mesh Slicer",
       "thumb": "/images/unity-mesh-slicer/thumb.jpg",
       "client": null,
       "description": "Real-time 3D geometry bisection. Works with both convex and non-convex geometries.",
-      "link": "https://github.com/LiamAttClarke/unity-mesh-slicer"
+      "link": "/unity-mesh-slicer.html",
+      "gallery": [
+        "/images/unity-mesh-slicer/1.jpg",
+        "/images/unity-mesh-slicer/2.jpg",
+        "/images/unity-mesh-slicer/3.jpg",
+        "/images/unity-mesh-slicer/4.jpg",
+        "/images/unity-mesh-slicer/5.jpg"
+      ]
     }
-  ],
+  },
   "resume": {
     "skills": [
       {
@@ -68,6 +100,7 @@
           "CSS",
           "SASS",
           "React",
+          "Remix",
           "Vue",
           "WebGL",
           "ThreeJS"
@@ -130,10 +163,27 @@
     ],
     "experience": [
       {
-        "title": "Freelance Software Engineer",
-        "start": "July 2022",
+        "title": "Independent Software Engineer",
+        "start": "August 2022",
         "end": "Present",
-        "projects": []
+        "projects": [
+          {
+            "name": "Strange Dungeon - Computechnosoft",
+            "description": "Video game currently being pitched to publishers.",
+            "achievements": [
+              "Refactored core combat system to resolve major deficiencies and improve gameplay",
+              "Rebuilt UI system to improve flexibility for artists and robustness."
+            ]
+          },
+          {
+            "name": "Areto Analyzer - Areto Labs",
+            "description": "AI powered tool for tracking, and counteracting online abuse.",
+            "achievements": [
+              "Worked with engineering and leadership to identify, and resolve major sources of development friction and service instability.",
+              "Lead several major overhauls including a robust CI/CD pipeline, institution of guidelines and controls to maintain best-practices for service-oriented systems, and a complete front-end overhaul."
+            ]
+          }
+        ]
       },
       {
         "title": "Principal Software Engineer",
@@ -142,7 +192,7 @@
         "end": "July 2022",
         "projects": [
           {
-            "name": "Generative Show",
+            "name": "RobotsMakeTV",
             "description": "Real-time generative show that enables a 3-way authorship dynamic between ML models, human/machine directors, and a live audience.",
             "achievements": [
               "Co-designed and developed a sophisticated system for running a realtime generative TV show.",
@@ -161,8 +211,8 @@
             ]
           },
           {
-            "name": "AI Music Generator",
-            "description": "Tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
+            "name": "AI Music Blocks",
+            "description": "No-code tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
             "achievements": [
               "Used chunked generation and rendering techniques to produce a near real-time music generation tool which enabled experimentation and play.",
               "Created a custom node-graph web interface for configuring and connecting music blocks.",
@@ -178,12 +228,12 @@
         "end": "April 2020",
         "projects": [
           {
-            "name": "Seating Charts",
+            "name": "Venue Maps",
             "description": "Migration, tooling, and scaling for project initially developed for Fanxchange.",
             "achievements": [
-              "Led migration of seating chart data and related software from Fanxchange to Vivid Seats.",
-              "Worked closely with content team to optimize the workflow for producing seating charts.",
-              "Conducted ETL on thousands of seating charts from three large data acquisitions."
+              "Led migration of venue map data and related software from Fanxchange to Vivid Seats.",
+              "Worked closely with content team to optimize the workflow for producing venue maps.",
+              "Conducted ETL on thousands of venue maps from three large data acquisitions."
             ]
           }
         ]
@@ -195,11 +245,11 @@
         "end": "November 2018",
         "projects": [
           {
-            "name": "Seating Charts",
+            "name": "Venue Maps",
             "description": "Interactive 3D interface for discovering the best seats at your next live event.",
             "achievements": [
-              "Prototyped an interactive seating chart to replace the existing solution provided by a third-party.",
-              "Engineered an end-to-end solution for industry-leading live-event seating charts.",
+              "Prototyped an interactive venue map to replace the existing solution provided by a third-party.",
+              "Engineered an end-to-end solution for industry-leading live-event venue maps.",
               "Caught the attention of a large industry player that eventually led to an aquisition."
             ]
           },

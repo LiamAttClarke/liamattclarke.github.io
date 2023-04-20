@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{title}} - {{projects.ai-music-blocks.name}}</title>
+  {{> head}}
+</head>
+<body>
+  <div class="page">
+    {{> header}}
+    <div class="card">
+      <header class="card-header">
+        <h2 class="no-margin">{{projects.ai-music-blocks.name}}</h2>
+      </header>
+      <h3>Gallery</h3>
+      <div class="gallery">
+        {{#projects.ai-music-blocks.gallery}}
+        <a class="button button--image" href="{{.}}">
+          <div class="button__paddle">
+            <img class="button__image" src="{{.}}" />
+          </div>
+        </a>
+        {{/projects.ai-music-blocks.gallery}}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

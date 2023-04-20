@@ -1,0 +1,29 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.gallery__item {
+  width: 100%;
+  border-radius: var(--d-border-radius);
+  border: solid 3px var(--c-grey-9);
+}
+
+.gallery__item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  position: center center;
+}
+
+@media screen and (max-width: 640px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{title}} - {{projects.robots-make-tv.name}}</title>
+  {{> head}}
+</head>
+<body>
+  <div class="page">
+    {{> header}}
+    <div class="card">
+      <header class="card__header">
+        <h2 class="no-margin">{{projects.robots-make-tv.name}}</h2>
+        <a class="button" href="https://www.twitch.tv/robotsmaketv">
+          <div class="button__paddle">
+            <span class="button__label">check it out</span>
+          </div>
+        </a>
+      </header>
+      <p>RobotsMakeTV is a real-time generative show that enables a 3-way authorship dynamic between ML models, human/machine directors, and a live audience.</p>
+      <p>The system was designed to enable the composition of a variety of evolving AI technologies. Generative AI models enable the creation of contextually-aware scripts, emotional analysis, voice synthesis, animations, and visual assets. Show directors can seamlessly experiment and launch their custom productions to live audiences.</p>
+      <p>Powering all of this is an event-sourced backend with an API that enables novel forms of interaction and presentation. This resulted in the creation of a realtime control panel for directors, a chat-based interaction loop for live audiences on Twitch, a no-code programming interface for sequencing shows, and ultimately an experimental robot director powered by the latest language models.</p>
+      <h3>Gallery</h3>
+      <div class="gallery">
+        {{#projects.robots-make-tv.gallery}}
+        <a class="button button--image" href="{{.}}">
+          <div class="button__paddle">
+            <img class="button__image" src="{{.}}" />
+          </div>
+        </a>
+        {{/projects.robots-make-tv.gallery}}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -10,17 +10,17 @@
     <p class="card">{{bio}}</p>
     <section class="page__section">
       <div class="section__header">
-        <h2 class="no-margin">Things I've made</h2>
+        <h2>Some things I've built</h2>
       </div>
-      <div class="project-grid">
-        {{#projects}}
+      <div class="gallery">
+        {{#projects__list}}
         <a class="button button--image" href="{{link}}">
           <div class="button__paddle">
             <img class="button__image" src="{{thumb}}" />
             <span class="button__label">{{name}}</span>
           </div>
         </a>
-        {{/projects}}
+        {{/projects__list}}
       </div>
     </section>
     <footer class="site__footer">

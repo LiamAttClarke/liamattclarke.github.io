@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{title}} - {{projects.fanxchange.name}}</title>
+  <title>{{title}} - {{projects.svg-plotter.name}}</title>
   {{> head}}
 </head>
 <body>
@@ -9,24 +9,23 @@
     {{> header}}
     <div class="card">
       <header class="card__header">
-        <h2 class="no-margin">{{projects.fanxchange.name}}</h2>
-        <a class="button" href="https://fanxchange.com">
+        <h2 class="no-margin">{{projects.svg-plotter.name}}</h2>
+        <a class="button" href="https://atticus.dev/svg-plotter/demo/index.html">
           <div class="button__paddle">
             <span class="button__label">check it out</span>
           </div>
         </a>
       </header>
-      <p>After a rebranding of the company, I worked closely with the lead designer to rebuild <a href="https://fanxchange.com">fanxchange.com</a>.</p>
-      <p>Below are screenshots of the project as of early 2019 and includes the work of many talented designers and developers since it's first launch.</p>
+      <p>Convert SVG files to GeoJSON</p>
       <h3>Gallery</h3>
       <div class="gallery">
-        {{#projects.fanxchange.gallery}}
+        {{#projects.svg-plotter.gallery}}
         <a class="button button--image" href="{{.}}">
           <div class="button__paddle">
             <img class="button__image" src="{{.}}" />
           </div>
         </a>
-        {{/projects.fanxchange.gallery}}
+        {{/projects.svg-plotter.gallery}}
       </div>
     </div>
   </div>
