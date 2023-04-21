@@ -40,7 +40,12 @@
       "name": "AI Music Blocks",
       "thumb": "/images/ai-music-blocks/thumb.png",
       "description": "No-code tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
-      "link": "/ai-music-blocks.html"
+      "link": "/ai-music-blocks.html",
+      "gallery": [
+        "/images/ai-music-blocks/1.jpg",
+        "/images/ai-music-blocks/2.jpg",
+        "/images/ai-music-blocks/3.jpg"
+      ]
     },
     "svg-plotter": {
       "name": "SVG Plotter",
