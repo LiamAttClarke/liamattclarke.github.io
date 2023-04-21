@@ -36,6 +36,12 @@
         "/images/robots-make-tv/9.jpg"
       ]
     },
+    "ai-music-blocks": {
+      "name": "AI Music Blocks",
+      "thumb": "/images/ai-music-blocks/thumb.png",
+      "description": "No-code tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
+      "link": "/ai-music-blocks.html"
+    },
     "svg-plotter": {
       "name": "SVG Plotter",
       "thumb": "/images/svg-plotter/thumb.png",
