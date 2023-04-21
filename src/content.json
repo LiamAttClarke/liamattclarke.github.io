@@ -51,7 +51,10 @@
       "name": "SVG Plotter",
       "thumb": "/images/svg-plotter/thumb.png",
       "description": "Convert SVG files to GeoJSON for use in mapping software.",
-      "link": "https://atticus.dev/svg-plotter/demo/index.html"
+      "link": "/svg-plotter.html",
+      "gallery": [
+        "/images/svg-plotter/1.jpg"
+      ]
     },
     "venue-maps": {
       "name": "Venue Maps",
