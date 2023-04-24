@@ -1,0 +1,19 @@
+.card {
+  padding: 24px;
+  border-radius: var(--d-border-radius);
+  background-color: var(--c-grey-400);
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}

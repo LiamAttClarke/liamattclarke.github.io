@@ -8,41 +8,42 @@
 <body>
   <div class="page page--resume">
     <div class="page__header">
-      <a href="/"><i class="fas fa-arrow-left"></i> Back</a>
-      <a class="print-link" href="#" onclick="window.print();">Print this page <i class="fas fa-print"></i></a>
+      <a href="/" class="flex items-center gap-2"><span class="icon-[mdi--arrow-left]"></span> Home</a>
+      <a class="print-link flex items-center gap-2" href="#" onclick="window.print();">Print this page <span class="icon-[mdi--printer]"></span></a>
     </div>
     <div class="resume">
-      <header class="resume__header">
+      <header class="flex place-content-between mb-5">
         <div class="left">
-          <h1 class="resume-title">{{title}}</h1>
-          <h3 class="resume-tagline">{{tagline}}</h3>
+          <h1 class="font-medium text-2xl">{{title}}</h1>
+          <h3 class="text-md">{{tagline}}</h3>
         </div>
         <div class="right contact-details">
-          <a href="mailto:{{email}}">{{email}}&nbsp;&nbsp;<i class="far fa-envelope"></i></a>
-          <a href="{{site}}">{{siteLabel}}&nbsp;&nbsp;<i class="fas fa-globe-americas"></i></a>
-          <a href="{{github}}">{{githubLabel}}&nbsp;&nbsp;<i class="fas fa-code-branch"></i></a>
+          <a href="mailto:{{email}}">{{email}}<span class="icon-[mdi--email-outline]"></span></a>
+          <a href="{{siteUrl}}">{{siteUrl}}<span class="icon-[mdi--web]"></span></a>
         <div>
       </header>
-      <section>
-        <h2>Technical Skills</h2>
+      <section class="mb-2">
+        <h2 class="font-medium text-lg">Technical Skills</h2>
+        <hr class="mb-5" />
         <ul>
           {{#resume.skills}}
-          <li><b>{{label}}:</b> <ul class="list--inline">{{#values}}<li>{{.}}</li>{{/values}}</li></ul></li>
+          <li><span class="font-medium">{{label}}:</span> <ul class="inline-list">{{#values}}<li>{{.}}</li>{{/values}}</li></ul></li>
           {{/resume.skills}}
         </ul>
       </section>
-      <section>
-        <h2>Experience</h2>
+      <section class="mb-2">
+        <h2 class="font-medium text-lg">Experience</h2>
+        <hr class="mb-5" />
         {{#resume.experience}}
-        <div class="experience">
-          <header class="experience__header">
-            <h3>{{title}}{{#client}}&nbsp;-&nbsp;{{client}}{{/client}}</h3>
-            <h3>{{start}} - {{#end}}{{end}}{{/end}}{{^end}}Present{{/end}}</h3>
+        <div class="experience my-5">
+          <header class="flex place-content-between items-center mb-2">
+            <h3 class="font-medium text-base">{{title}}{{#client}}&nbsp;-&nbsp;{{client}}{{/client}}</h3>
+            <h3 class="font-medium">{{start}} - {{#end}}{{end}}{{/end}}{{^end}}Present{{/end}}</h3>
           </header>
           {{#projects}}
           <section class="project">
-            <h4>{{name}} - <i class="project__description">{{description}}</i></h4>
-            <ul>
+            <h4 class="font-medium mb-1">{{name}} - <i class="project__description">{{description}}</i></h4>
+            <ul class="list-disc pl-5">
               {{#achievements}}
               <li>{{.}}</li>
               {{/achievements}}

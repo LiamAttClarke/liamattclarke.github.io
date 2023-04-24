@@ -9,7 +9,7 @@
 .gallery__item {
   width: 100%;
   border-radius: var(--d-border-radius);
-  border: solid 3px var(--c-grey-9);
+  border: solid 3px var(--c-grey-900);
 }
 
 .gallery__item img {

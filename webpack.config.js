@@ -3,6 +3,7 @@ const path = require("path");
 const { mkdirp } = require("mkdirp");
 const mustache = require("mustache");
 const CopyPlugin = require("copy-webpack-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const SRC_PATH = path.join(__dirname, "./src")
 // Using /docs path because GitHub Pages can only serve from / or /docs
@@ -48,7 +49,7 @@ class MustachePlugin {
           if (templateFileName.endsWith(".mustache")) {
             const templateString = fs.readFileSync(path.join(TEMPLATES_PATH, templateFileName), "utf8");
             const content = appendListsForEachObject(SITE_CONTENT);
-            console.log('Content:', JSON.stringify(content, null, 2));
+            // console.log('Content:', JSON.stringify(content, null, 2));
             const compiledTemplate = mustache.render(templateString, content, partials);
             const fileName = templateFileName.replace(".mustache", ".html");
             fs.writeFileSync(path.join(PUBLIC_PATH, fileName), compiledTemplate);
@@ -85,5 +86,18 @@ module.exports = {
       ]
     }),
     new MustachePlugin(),
+    new MiniCssExtractPlugin(),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: [
+          MiniCssExtractPlugin.loader,
+          "css-loader",
+          "postcss-loader",
+        ]
+      }
+    ]
+  }
 };

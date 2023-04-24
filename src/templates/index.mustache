@@ -4,13 +4,18 @@
   <title>{{title}}</title>
   {{> head}}
 </head>
-<body>
+<body class="font-sans">
   <div class="page">
     {{> header}}
-    <p class="card">{{bio}}</p>
+    <section class="card">
+      <p class="mt-0">Hello,</p>
+      <p>I'm Liam, a Sofware Engineer with a broad background in Web development, 3D Graphics, Video Game Development, Data-Engineering, and DevOps.</p>
+      <p>Regardless of the domain/industry, my work has always been driven by a desire to empower my colleagues, and to build delightful experiences for people.</p>
+      <p class="mb-0">Thanks for stopping by ❤️.</p>
+    </section>
     <section class="page__section">
       <div class="section__header">
-        <h2>Some things I've built</h2>
+        <h2 class="text-2xl font-medium mb-6">Some things I've built</h2>
       </div>
       <div class="gallery">
         {{#projects__list}}
@@ -21,6 +26,19 @@
           </div>
         </a>
         {{/projects__list}}
+      </div>
+    </section>
+    <section class="card">
+      <p class="mt-0">If you're interested in learning more about my work or want to collaborate, check out my resume and feel free to reach out.</p>
+      <hr />
+      <div class="card__footer">
+        <a class="button" href="/resume.html">
+          <div class="button__paddle">
+            <span class="button__label flex items-center gap-2">
+              <span class="icon-[mdi--file-document-outline]"></span> Résumé
+            </span>
+          </div>
+        </a>
       </div>
     </section>
     <footer class="site__footer">

@@ -9,11 +9,12 @@
 }
 
 .button {
+  display: inline-block;
   position: relative;
   border: none;
   outline: none;
   height: var(--d-input-height);
-  background-color: var(--c-accent--darker);
+  background-color: var(--c-primary-700);
   padding: 0;
   border-radius: var(--d-border-radius);
   font-size: 1em;
@@ -34,10 +35,10 @@
   align-items: center;
   gap: 8px;
   padding: var(--d-button-padding);
-  background-color: var(--c-accent);
+  background-color: var(--c-primary-500);
   border-radius: var(--d-border-radius);
-  border: solid 2px var(--c-accent--darker);
-  color: white;
+  border: solid 2px var(--c-primary-700);
+  color: var(--c-text-dark);
   text-align: center;
   cursor: pointer;
   transition: background-color var(--t-fastest) ease-in-out,
@@ -67,9 +68,9 @@
 
 .button:disabled > .button__paddle, .button.primary:disabled > .button__paddle {
   bottom: 0;
-  background-color: var(--c-primary--lightest);
-  border-color: var(--c-grey-1);
-  color: var(--c-grey-2);
+  background-color: var(--c-primary-400);
+  border-color: var(--c-grey-100);
+  color: var(--c-grey-200);
   cursor: auto;
 }
 
@@ -90,7 +91,7 @@
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--c-primary--darkest);
+  color: var(--c-primary-900);
   background-color: transparent;
 }
 
@@ -103,21 +104,22 @@
 .button.link .button__label {
   text-decoration: underline;
   text-decoration-skip: space;
-  text-decoration-color: var(--c-grey-3);
+  text-decoration-color: var(--c-grey-300);
 }
 
 .button.link:hover .button__content, .button.link:focus .button__content {
-  text-decoration-color: var(--c-primary--darkest);
+  text-decoration-color: var(--c-primary-900);
 }
 
 .button--image {
   height: auto;
-  background-color: var(--c-grey-9);
+  background-color: var(--c-grey-900);
 }
 
 .button--image .button__paddle {
-  background-color: var(--c-grey-8);
-  border-color: var(--c-grey-9);
+  background-color: var(--c-grey-800);
+  border-color: var(--c-grey-900);
+  color: var(--c-text-light);
 }
 
 .button--icon {
@@ -146,7 +148,7 @@
   height: 24px;
   transform: translateX(-50%);
   padding: 0 10px;
-  background-color: var(--c-grey-1);
+  background-color: var(--c-grey-100);
   white-space: nowrap;
   opacity: 0;
   transition: opacity var(--t-fast) ease-in-out;
@@ -156,7 +158,7 @@
 
 .button__image {
   width: 100%;
-  background-color: var(--c-grey-7);
+  background-color: var(--c-grey-700);
   border-radius: 2px;
   aspect-ratio: 1;
   object-fit: cover;

@@ -9,7 +9,7 @@
     {{> header}}
     <div class="card">
       <header class="card__header">
-        <h2 class="no-margin">{{projects.svg-plotter.name}}</h2>
+        <h2 class="font-medium text-xl">{{projects.svg-plotter.name}}</h2>
         <a class="button" href="https://atticus.dev/svg-plotter/demo/index.html">
           <div class="button__paddle">
             <span class="button__label">check it out</span>
@@ -18,7 +18,7 @@
       </header>
       <p>Convert <a href="https://en.wikipedia.org/wiki/SVG">SVG</a> files to <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> for use with <a href="https://en.wikipedia.org/wiki/Geographic_information_system">GIS</a> tools like Google Maps/Mapbox.</p>
       <p>This tool was built to facilitate an asset pipeline for custom vector maps produced with tools like Adobe Illustrator/Inkscape.</p>
-      <h3>Gallery</h3>
+      <h3 class="font-medium text-lg mb-3">Gallery</h3>
       <div class="gallery">
         {{#projects.svg-plotter.gallery}}
         <a class="button button--image" href="{{.}}">

@@ -11,10 +11,23 @@
     "url": "git+https://github.com/LiamAttClarke/liamattclarke.github.io.git"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.50",
+    "@iconify-json/mdi-light": "^1.1.6",
+    "@iconify/tailwind": "^0.1.2",
+    "@unocss/webpack": "^0.51.8",
+    "autoprefixer": "^10.4.14",
     "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.3",
     "husky": "^5.1.1",
+    "mini-css-extract-plugin": "^2.7.5",
     "mkdirp": "^3.0.0",
     "mustache": "^3.0.1",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.2.4",
+    "postcss-preset-env": "^8.3.2",
+    "style-loader": "^3.3.2",
+    "tailwindcss": "^3.3.1",
+    "unocss": "^0.51.8",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.7.4"

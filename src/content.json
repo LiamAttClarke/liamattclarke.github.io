@@ -2,11 +2,9 @@
   "title": "Liam A. Clarke",
   "tagline": "Software Engineer",
   "email": "liam.att.clarke@gmail.com",
-  "site": "https://atticus.dev",
-  "siteLabel": "atticus.dev",
-  "github": "https://github.com/LiamAttClarke",
-  "githubLabel": "github.com/LiamAttClarke",
-  "bio": "I'm a creative and passionate developer looking to lend my strengths to an equally passionate team. If you find my work compelling, reach out so we can start building something awesome!",
+  "siteUrl": "https://atticus.dev",
+  "linkedInUrl": "https://www.linkedin.com/in/liam-clarke-7b521011b",
+  "githubUrl": "https://github.com/LiamAttClarke",
   "projects": {
     "asset-graph": {
       "name": "Asset Graph",
@@ -38,7 +36,7 @@
     },
     "ai-music-blocks": {
       "name": "AI Music Blocks",
-      "thumb": "/images/ai-music-blocks/thumb.png",
+      "thumb": "/images/ai-music-blocks/thumb.jpg",
       "description": "No-code tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
       "link": "/ai-music-blocks.html",
       "gallery": [
@@ -49,7 +47,7 @@
     },
     "svg-plotter": {
       "name": "SVG Plotter",
-      "thumb": "/images/svg-plotter/thumb.png",
+      "thumb": "/images/svg-plotter/thumb.jpg",
       "description": "Convert SVG files to GeoJSON for use in mapping software.",
       "link": "/svg-plotter.html",
       "gallery": [
@@ -126,7 +124,7 @@
         ]
       },
       {
-        "label": "Databases",
+        "label": "Data",
         "values": [
           "PostgreSQL",
           "MySQL",
@@ -145,7 +143,7 @@
         ]
       },
       {
-        "label": "Dev Ops",
+        "label": "DevOps",
         "values": [
           "Amazon Web Services (AWS)",
           "Google Cloud Platform (GCP)",
@@ -159,10 +157,8 @@
         "label": "Machine Learning",
         "values": [
           "Tensorflow",
-          "Google Magenta",
-          "GPT-2",
-          "GPT-3",
-          "Deepmoji"
+          "PyTorch",
+          "Unity MLAgents"
         ]
       },
       {
