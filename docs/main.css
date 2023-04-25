@@ -892,8 +892,17 @@ video {
 .flex {
   display: flex;
 }
+.grid {
+  display: grid;
+}
+.w-full {
+  width: 100%;
+}
 .list-disc {
   list-style-type: disc;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .place-content-between {
   align-content: space-between;
@@ -905,6 +914,12 @@ video {
 }
 .gap-2 {
   gap: 0.5rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.p-2 {
+  padding: 0.5rem;
 }
 .pl-5 {
   padding-left: 1.25rem;
