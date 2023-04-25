@@ -145,8 +145,8 @@
       {
         "label": "DevOps",
         "values": [
-          "Amazon Web Services (AWS)",
-          "Google Cloud Platform (GCP)",
+          "AWS",
+          "GCP",
           "Kubernetes",
           "Docker",
           "GitHub Actions",
@@ -186,16 +186,16 @@
             "name": "Strange Dungeon - Computechnosoft",
             "description": "Video game currently being pitched to publishers.",
             "achievements": [
-              "Refactored core combat system to resolve major deficiencies and improve gameplay",
-              "Rebuilt UI system to improve flexibility for artists and robustness."
+              "Refactored core combat system to resolve major deficiencies.",
+              "Rebuilt UI system to improve flexibility for artists and robustness across target devices."
             ]
           },
           {
             "name": "Areto Analyzer - Areto Labs",
-            "description": "AI powered tool for tracking, and counteracting online abuse.",
+            "description": "AI powered tool for tracking, tracing, and counteracting online abuse.",
             "achievements": [
-              "Worked with engineering and leadership to identify, and resolve major sources of development friction and service instability.",
-              "Lead several major overhauls including a robust CI/CD pipeline, institution of guidelines and controls to maintain best-practices for service-oriented systems, and a complete front-end overhaul."
+              "Worked with engineering and leadership to identify and resolve major sources of development friction and service instability.",
+              "Lead several major overhauls including a robust CI/CD pipeline, and customer-facing site."
             ]
           }
         ]
@@ -208,64 +208,49 @@
         "projects": [
           {
             "name": "RobotsMakeTV",
-            "description": "Real-time generative show that enables a 3-way authorship dynamic between ML models, human/machine directors, and a live audience.",
+            "description": "Show with a 3-way authorship dynamic between a director, AI, and a live audience.",
             "achievements": [
-              "Co-designed and developed a sophisticated system for running a realtime generative TV show.",
+              "Designed and developed a sophisticated system for running a real-time generative TV show.",
               "Built custom tools for content creators to produce their own narrative structures powered by machine intelligence.",
               "Supported a weekly live-stream on Twitch with guest directors and direct audience control."
             ]
           },
           {
             "name": "Asset Graph",
-            "description": "System for building a searchable graph of files, enabling the creation of ML training workflows.",
+            "description": "System for building a searchable graph of files to be used in ML training pipelines.",
             "achievements": [
               "Architected a modular system with extension points for expanding supported file types and relational mapping techniques.",
-              "Facilitated the ingestion and enrichment of 400k+ assets spanning over 10 years of production for a notable animated YouTube series.",
-              "Acted as the primary point of contact for project clients throughout planning, development, and delivery.",
+              "Facilitated the processing of 400k+ assets spanning over 10 years of production for a notable animated YouTube series.",
+              "Acted as the primary point of contact for clients throughout planning, development, and delivery.",
               "Ensured deliverable was compliant with software licenses and helped define an appropriate commercial license for clients."
             ]
           },
           {
             "name": "AI Music Blocks",
-            "description": "No-code tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
+            "description": "No-code tool for composing ML music blocks to form dynamic soundscapes.",
             "achievements": [
-              "Used chunked generation and rendering techniques to produce a near real-time music generation tool which enabled experimentation and play.",
-              "Created a custom node-graph web interface for configuring and connecting music blocks.",
-              "Worked closely with accomplished musicians and producers to shape the concept and eventual form of the project."
+              "Architected a real-time music generation system which enabled experimentation and play.",
+              "Created a custom node-graph web interface for configuring and connecting AI music blocks.",
+              "Worked closely with accomplished musicians/producers to shape the project."
             ]
           }
         ]
       },
       {
         "title": "Senior Software Engineer",
-        "client": "Vivid Seats",
-        "start": "November 2018",
+        "client": "Fanxchange / Vivid Seats",
+        "start": "April 2016",
         "end": "April 2020",
         "projects": [
           {
             "name": "Venue Maps",
-            "description": "Migration, tooling, and scaling for project initially developed for Fanxchange.",
+            "description": "Interactive 3D map for finding the best seats at your next live event.",
             "achievements": [
+              "Protoyped and deployed an end-to-end solution for industry-leading live-event venue maps.",
+              "Sparked interest with a competitor which led to an acquisition.",
               "Led migration of venue map data and related software from Fanxchange to Vivid Seats.",
-              "Worked closely with content team to optimize the workflow for producing venue maps.",
+              "Worked with content team to optimize the workflow for producing/managing maps at scale.",
               "Conducted ETL on thousands of venue maps from three large data acquisitions."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Senior Software Engineer",
-        "client": "Fanxchange",
-        "start": "April 2016",
-        "end": "November 2018",
-        "projects": [
-          {
-            "name": "Venue Maps",
-            "description": "Interactive 3D interface for discovering the best seats at your next live event.",
-            "achievements": [
-              "Prototyped an interactive venue map to replace the existing solution provided by a third-party.",
-              "Engineered an end-to-end solution for industry-leading live-event venue maps.",
-              "Caught the attention of a large industry player that eventually led to an aquisition."
             ]
           },
           {
