@@ -1,13 +1,20 @@
+:root {
+  --print-width: 210mm;
+  --print-height: 297mm;
+  --print-margin: 0.75in;
+}
+
 .page--resume {
-  width: 8.5in;
-  padding: 0;
+  width: var(--print-width) !important;
+  padding: 0 !important;
 }
 
 .resume {
-  width: 8.5in;
-  min-height: 11in;
-  padding: 0.75in;
-  font-size: 10pt;
+  box-sizing: border-box;
+  width: var(--print-width);
+  min-height: var(--print-height);
+  padding: var(--print-margin);
+  font-size: 11pt;
   color: black;
   line-height: 150%;
   background: white;
@@ -21,8 +28,9 @@
 
 @media print {
   @page {
-    size: letter;
-    margin: 0.75in;
+    size: A4;
+    padding: var(--print-margin);
+    margin: 0;
   }
 
   @page :header {
@@ -33,10 +41,6 @@
     display: none;
   }
 
-  .page {
-    margin: 0;
-  }
-
   .page__header {
     display: none !important;
   }
@@ -44,5 +48,11 @@
   .resume {
     padding: 0;
     box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .resume .contact-details > a {
+    flex-direction: row;
   }
 }

@@ -29,6 +29,7 @@ function appendListsForEachObject(obj) {
 
 class MustachePlugin {
   apply(compiler) {
+    // TODO: Trigger on file change detection (--watch)
     compiler.hooks.thisCompilation.tap(this.constructor.name, (compilation) => {
       compilation.hooks.processAssets.tapAsync({
         name: "mustache-webpack-plugin",

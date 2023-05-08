@@ -121,23 +121,7 @@
           "Mapbox",
           "React",
           "Remix",
-          "Vue"
-        ]
-      },
-      {
-        "label": "Data",
-        "values": [
-          "PostgreSQL",
-          "MySQL",
-          "MariaDB",
-          "Neo4j",
-          "Redis",
-          "RabbitMQ"
-        ]
-      },
-      {
-        "label": "Protocols & Standards",
-        "values": [
+          "Vue",
           "Protocol Buffers",
           "GRPC",
           "GraphQL",
@@ -145,15 +129,21 @@
         ]
       },
       {
-        "label": "Machine Learning",
+        "label": "Data & ML",
         "values": [
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Neo4j",
+          "Redis",
+          "RabbitMQ",
           "Tensorflow",
           "PyTorch",
           "Unity MLAgents"
         ]
       },
       {
-        "label": "Computer Graphics",
+        "label": "Graphics",
         "values": [
           "Unity",
           "ShaderGraph",
@@ -171,7 +161,7 @@
           "Kubernetes",
           "GitHub Actions",
           "Jenkins",
-          "NGINX"
+          "nginx"
         ]
       }
     ],
@@ -182,19 +172,14 @@
         "end": "Present",
         "projects": [
           {
-            "name": "Strange Dungeon - Computechnosoft",
-            "description": "Video game currently being pitched to publishers.",
-            "achievements": [
-              "Refactored core combat system to resolve major deficiencies.",
-              "Rebuilt UI system to improve flexibility for artists and robustness across target devices."
-            ]
-          },
-          {
             "name": "Areto Analyzer - Areto Labs",
             "description": "AI powered tool for tracking, tracing, and counteracting online abuse.",
             "achievements": [
-              "Identified and resolved major sources of development friction and service instability.",
-              "Led major overhaul of a customer dashboard, API, and CI/CD pipeline."
+              "Served as interim Technical Director with a focus on mentorship for junior engineers.",
+              "Led a successful initiative to identify and triage sources of service instability.",
+              "Implemented a modern CI/CD pipeline to address feedback regarding development friction.",
+              "Developed a comprehensive interface for brands to manage their social accounts and triage abuse responses.",
+              "Delivered a production-ready system to several major football and rugby teams that experience significant online abuse."
             ]
           }
         ]
