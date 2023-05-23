@@ -971,6 +971,8 @@ p {
 }
 
 a {
+  position: relative;
+  z-index: 0;
   -webkit-text-decoration: underline;
   text-decoration: underline;
   text-decoration-color: #2397d4;
@@ -978,9 +980,17 @@ a {
   text-decoration-thickness: 2px;
 }
 
-a:hover {
-  color: #2397d4;
-  color: var(--c-secondary-500);
+a:hover::after {
+  content: " ";
+  z-index: -1;
+  background-color: #2397d4;
+  background-color: var(--c-secondary-500);
+  position: absolute;
+  top: 3px;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  opacity: 0.2;
 }
 
 .page {
@@ -1042,6 +1052,10 @@ a:hover {
   text-decoration-color: #2397d4;
   text-decoration-color: var(--c-secondary-500);
   text-decoration-thickness: 2px;
+}
+
+.contact-details > a:hover::after {
+  display: none;
 }
 
 .site__logo {
