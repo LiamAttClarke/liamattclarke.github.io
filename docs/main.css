@@ -993,6 +993,10 @@ a:hover::after {
   opacity: 0.2;
 }
 
+a.no-highlight:hover::after {
+  display: none;
+}
+
 .page {
   width: 840px;
   margin: 0 auto 32px auto;
@@ -1052,10 +1056,6 @@ a:hover::after {
   text-decoration-color: #2397d4;
   text-decoration-color: var(--c-secondary-500);
   text-decoration-thickness: 2px;
-}
-
-.contact-details > a:hover::after {
-  display: none;
 }
 
 .site__logo {
