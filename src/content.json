@@ -8,92 +8,107 @@
   "projects": {
     "asset-graph": {
       "name": "Asset Graph",
-      "thumb": "/images/asset-graph/thumb.jpg",
+      "thumb": "/assets/asset-graph/thumb.jpg",
       "description": "System for building a searchable graph of files, enabling the creation of ML training workflows.",
       "link": "/asset-graph.html",
       "gallery": [
-        "/images/asset-graph/1.jpg",
-        "/images/asset-graph/2.jpg",
-        "/images/asset-graph/3.jpg"
+        "/assets/asset-graph/1.jpg",
+        "/assets/asset-graph/2.jpg",
+        "/assets/asset-graph/3.jpg"
       ]
     },
     "robots-make-tv": {
       "name": "RobotsMakeTV",
-      "thumb": "/images/robots-make-tv/thumb.jpg",
+      "thumb": "/assets/robots-make-tv/thumb.jpg",
       "description": "Real-time generative show that enables a 3-way authoriship dynamic between ML models, human/procedural directors, and a live audience.",
       "link": "/robots-make-tv.html",
       "gallery": [
-        "/images/robots-make-tv/1.jpg",
-        "/images/robots-make-tv/2.jpg",
-        "/images/robots-make-tv/3.jpg",
-        "/images/robots-make-tv/4.jpg",
-        "/images/robots-make-tv/5.jpg",
-        "/images/robots-make-tv/6.jpg",
-        "/images/robots-make-tv/7.jpg",
-        "/images/robots-make-tv/8.jpg",
-        "/images/robots-make-tv/9.jpg"
+        "/assets/robots-make-tv/1.jpg",
+        "/assets/robots-make-tv/2.jpg",
+        "/assets/robots-make-tv/3.jpg",
+        "/assets/robots-make-tv/4.jpg",
+        "/assets/robots-make-tv/5.jpg",
+        "/assets/robots-make-tv/6.jpg",
+        "/assets/robots-make-tv/7.jpg",
+        "/assets/robots-make-tv/8.jpg",
+        "/assets/robots-make-tv/9.jpg"
       ]
     },
     "ai-music-blocks": {
       "name": "AI Music Blocks",
-      "thumb": "/images/ai-music-blocks/thumb.jpg",
+      "thumb": "/assets/ai-music-blocks/thumb.jpg",
       "description": "No-code tool for snapping together ML music blocks to form novel and dynamic soundscapes.",
       "link": "/ai-music-blocks.html",
       "gallery": [
-        "/images/ai-music-blocks/1.jpg",
-        "/images/ai-music-blocks/2.jpg",
-        "/images/ai-music-blocks/3.jpg"
+        "/assets/ai-music-blocks/1.jpg",
+        "/assets/ai-music-blocks/2.jpg",
+        "/assets/ai-music-blocks/3.jpg"
+      ]
+    },
+    "trash-panda": {
+      "name": "Trash Panda",
+      "thumb": "/assets/trash-panda/thumb.webp",
+      "description": "Learn where your trash goes.",
+      "link": "/trash-panda.html",
+      "gallery": [
+        "/assets/trash-panda/1.webp",
+        "/assets/trash-panda/2.webp",
+        "/assets/trash-panda/3.webp",
+        "/assets/trash-panda/4.webp",
+        "/assets/trash-panda/5.webp",
+        "/assets/trash-panda/6.webp",
+        "/assets/trash-panda/7.webp"
       ]
     },
     "svg-plotter": {
       "name": "SVG Plotter",
-      "thumb": "/images/svg-plotter/thumb.jpg",
+      "thumb": "/assets/svg-plotter/thumb.jpg",
       "description": "Convert SVG files to GeoJSON for use in mapping software.",
       "link": "/svg-plotter.html",
       "gallery": [
-        "/images/svg-plotter/1.jpg"
+        "/assets/svg-plotter/1.jpg"
       ]
     },
     "venue-maps": {
       "name": "Venue Maps",
-      "thumb": "/images/venue-maps/thumb.jpg",
+      "thumb": "/assets/venue-maps/thumb.jpg",
       "client": "Fanxchange",
       "description": "Find the best seats in the house for thousands of popular venues. Narrow your search by selecting sections or simply zoom in to filter tickets to visible rows.",
       "link": "/venue-maps.html",
       "gallery": [
-        "/images/venue-maps/1.jpg",
-        "/images/venue-maps/2.jpg",
-        "/images/venue-maps/3.jpg",
-        "/images/venue-maps/4.jpg",
-        "/images/venue-maps/5.jpg",
-        "/images/venue-maps/6.jpg"
+        "/assets/venue-maps/1.jpg",
+        "/assets/venue-maps/2.jpg",
+        "/assets/venue-maps/3.jpg",
+        "/assets/venue-maps/4.jpg",
+        "/assets/venue-maps/5.jpg",
+        "/assets/venue-maps/6.jpg"
       ]
     },
     "fanxchange": {
       "name": "fanxchange.com",
-      "thumb": "/images/fanxchange/thumb.jpg",
+      "thumb": "/assets/fanxchange/thumb.jpg",
       "client": "Fanxchange",
       "description": "Consumer site for Fanxchange's live-event marketplace.",
       "link": "/fanxchange.html",
       "gallery": [
-        "/images/fanxchange/1.jpg",
-        "/images/fanxchange/2.jpg",
-        "/images/fanxchange/3.jpg",
-        "/images/fanxchange/4.jpg"
+        "/assets/fanxchange/1.jpg",
+        "/assets/fanxchange/2.jpg",
+        "/assets/fanxchange/3.jpg",
+        "/assets/fanxchange/4.jpg"
       ]
     },
     "unity-mesh-slicer": {
       "name": "Unity Mesh Slicer",
-      "thumb": "/images/unity-mesh-slicer/thumb.jpg",
+      "thumb": "/assets/unity-mesh-slicer/thumb.jpg",
       "client": null,
       "description": "Real-time 3D geometry bisection. Works with both convex and non-convex geometries.",
       "link": "/unity-mesh-slicer.html",
       "gallery": [
-        "/images/unity-mesh-slicer/1.jpg",
-        "/images/unity-mesh-slicer/2.jpg",
-        "/images/unity-mesh-slicer/3.jpg",
-        "/images/unity-mesh-slicer/4.jpg",
-        "/images/unity-mesh-slicer/5.jpg"
+        "/assets/unity-mesh-slicer/1.jpg",
+        "/assets/unity-mesh-slicer/2.jpg",
+        "/assets/unity-mesh-slicer/3.jpg",
+        "/assets/unity-mesh-slicer/4.jpg",
+        "/assets/unity-mesh-slicer/5.jpg"
       ]
     }
   },
