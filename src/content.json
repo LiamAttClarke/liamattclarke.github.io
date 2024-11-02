@@ -5,6 +5,7 @@
   "siteUrl": "https://atticus.dev",
   "linkedInUrl": "https://www.linkedin.com/in/liam-clarke-7b521011b",
   "githubUrl": "https://github.com/LiamAttClarke",
+  "printablesUrl": "https://www.printables.com/@n69zdJov7qRet_251472",
   "projects": {
     "asset-graph": {
       "name": "Asset Graph",
@@ -110,6 +111,14 @@
         "/assets/unity-mesh-slicer/4.jpg",
         "/assets/unity-mesh-slicer/5.jpg"
       ]
+    }
+  },
+  "3d_models": {
+    "akai-key-replacement": {
+      "name": "AKAI Replacement Keys",
+      "thumb": "/assets/akai-key-replacement/thumb.jpg",
+      "description": "Replacement keys for my friend's midi controller.",
+      "link": "https://www.printables.com/model/661233-akai-mpk-mini-play-replacement-keys"
     }
   },
   "resume": {

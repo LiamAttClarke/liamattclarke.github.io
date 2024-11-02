@@ -15,7 +15,7 @@
     </section>
     <section class="page__section">
       <div class="section__header">
-        <h2 class="text-xl font-medium mb-6">Some things I've built</h2>
+        <h2 class="text-xl font-medium mb-6">Projects</h2>
       </div>
       <div class="gallery">
         {{#projects__list}}
@@ -26,6 +26,26 @@
           </div>
         </a>
         {{/projects__list}}
+      </div>
+    </section>
+    <section class="page__section">
+      <div class="section__header flex place-content-between">
+        <h2 class="text-xl font-medium mb-6">3D Models</h2>
+        <a href="{{printablesUrl}}" target="_blank" class="no-highlight">
+          <span class="flex items-center">
+            <img src="/assets/icons/printables_icon.svg" alt="Printables Icon" width="16" height="16" /> Printables Profile
+          </span>
+        </a>
+      </div>
+      <div class="gallery">
+        {{#3d_models__list}}
+        <a class="button button--image" href="{{link}}">
+          <div class="button__paddle">
+            <img class="button__image" src="{{thumb}}" />
+            <span class="button__label">{{name}}</span>
+          </div>
+        </a>
+        {{/3d_models__list}}
       </div>
     </section>
     <section class="card">
