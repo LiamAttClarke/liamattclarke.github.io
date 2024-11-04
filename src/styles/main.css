@@ -9,40 +9,40 @@
 @layer base {
   :root {
     /* colors */
-  --c-primary-500: #E1AD01;
-  --c-primary-600: #d6a401;
-  --c-primary-700: #b48b03;
-  --c-primary-800: #927002;
-  --c-secondary-500: #2397d4;
-  --c-accent-600: #1f84ba;
-  --c-accent-700: #196b97;
-  --c-accent-800: #135375;
-  --c-grey-100: #f3f3f3;
-  --c-grey-200: #ececec;
-  --c-grey-300: #e0e0e0;
-  --c-grey-400: #d1d1d1;
-  --c-grey-500: #cacaca;
-  --c-grey-600: #bbbbbb;
-  --c-grey-700: #8f8e8e;
-  --c-grey-800: #393939;
-  --c-grey-900: #1a1a1a;
-  --c-text-dark: #000000;
-  --c-text-light: #ffffff;
-  /* durations */
-  --t-fastest: 100ms;
-  --t-fast: 250ms;
-  --t-normal: 500ms;
-  --t-slow: 750ms;
-  --t-focus: 250ms;
-  /* dimensions */
-  --d-border-radius: 4px;
-  --d-input-padding: 10px;
-  --d-button-padding: 4px;
-  --d-input-height: 42px;
-  /* font-sizes */
-  --fs-small: 0.9rem;
-  --fs-normal: 1rem;
-  --fs-large: 1.1rem;
+    --c-primary-500: #E1AD01;
+    --c-primary-600: #d6a401;
+    --c-primary-700: #b48b03;
+    --c-primary-800: #927002;
+    --c-secondary-500: #2397d4;
+    --c-accent-600: #1f84ba;
+    --c-accent-700: #196b97;
+    --c-accent-800: #135375;
+    --c-grey-100: #f3f3f3;
+    --c-grey-200: #ececec;
+    --c-grey-300: #e0e0e0;
+    --c-grey-400: #d1d1d1;
+    --c-grey-500: #cacaca;
+    --c-grey-600: #bbbbbb;
+    --c-grey-700: #8f8e8e;
+    --c-grey-800: #393939;
+    --c-grey-900: #1a1a1a;
+    --c-text-dark: #000000;
+    --c-text-light: #ffffff;
+    /* durations */
+    --t-fastest: 100ms;
+    --t-fast: 250ms;
+    --t-normal: 500ms;
+    --t-slow: 750ms;
+    --t-focus: 250ms;
+    /* dimensions */
+    --d-border-radius: 4px;
+    --d-input-padding: 10px;
+    --d-button-padding: 4px;
+    --d-input-height: 42px;
+    /* font-sizes */
+    --fs-small: 0.9rem;
+    --fs-normal: 1rem;
+    --fs-large: 1.1rem;
   }
 }
 
@@ -62,7 +62,7 @@ p {
   margin: 16px 0;
 }
 
-a {
+.link {
   position: relative;
   z-index: 0;
   text-decoration: underline;
@@ -70,7 +70,7 @@ a {
   text-decoration-thickness: 2px;
 }
 
-a:hover::after {
+.link:hover::after {
   content: " ";
   z-index: -1;
   background-color: var(--c-secondary-500);
@@ -82,7 +82,7 @@ a:hover::after {
   opacity: 20%;
 }
 
-a.no-highlight:hover::after {
+.link.no-highlight:hover::after {
   display: none;
 }
 
@@ -104,28 +104,28 @@ a.no-highlight:hover::after {
   margin: 48px 0;
 }
 
-.site__header > .left {
+.site__header>.left {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-.site__header > .left:hover .site__logo {
+.site__header>.left:hover .site__logo {
   transform: scaleX(-1);
 }
 
-.site__header > .left:hover {
+.site__header>.left:hover {
   text-decoration: none;
   color: var(--c-text-dark);
 }
 
-.site__header > .right {
+.site__header>.right {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.contact-details > a {
+.contact-details>a {
   display: flex;
   gap: 4px;
   align-items: center;
@@ -133,7 +133,7 @@ a.no-highlight:hover::after {
   text-decoration: none;
 }
 
-.contact-details > a:hover {
+.contact-details>a:hover {
   color: var(--c-text-dark);
   text-decoration: underline;
   text-decoration-color: var(--c-secondary-500);
@@ -153,7 +153,7 @@ a.no-highlight:hover::after {
   line-height: 150%;
 }
 
-.site__header-link > i {
+.site__header-link>i {
   padding: 0 4px;
 }
 
@@ -167,22 +167,27 @@ a.no-highlight:hover::after {
 }
 
 .section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 16px 0;
+  padding: 16px 0;
+  border-bottom: solid 1px var(--c-grey-500);
 }
 
 .inline-list {
   display: inline;
 }
 
-.inline-list > li {
+.inline-list>li {
   display: inline;
 }
 
-.inline-list > li::after {
+.inline-list>li::after {
   content: ", ";
 }
 
-.inline-list > li:last-of-type::after {
+.inline-list>li:last-of-type::after {
   content: "";
 }
 
@@ -198,16 +203,19 @@ a.no-highlight:hover::after {
     flex-direction: column;
     justify-content: center;
   }
-  .site__header > .left {
+
+  .site__header>.left {
     justify-content: center;
     margin-bottom: 32px;
   }
-  .site__header > .right {
+
+  .site__header>.right {
     flex-direction: row;
     justify-content: center;
     gap: 16px;
   }
-  .contact-details > a {
+
+  .contact-details>a {
     flex-direction: row-reverse;
   }
 }
@@ -215,4 +223,3 @@ a.no-highlight:hover::after {
 @media screen and (max-width: 480px) {}
 
 @media screen and (max-width: 320px) {}
-

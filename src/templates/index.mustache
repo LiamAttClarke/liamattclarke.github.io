@@ -15,35 +15,38 @@
     </section>
     <section class="page__section">
       <div class="section__header">
-        <h2 class="text-xl font-medium mb-6">Projects</h2>
+        <h2 class="text-xl font-medium">Software</h2>
+        <a href="{{githubUrl}}" target="_blank" class="link">
+          <span class="flex items-center gap-2">
+            <span>GitHub</span>
+            <span class="icon-[mdi--github]"></span>
+          </span>
+        </a>
       </div>
       <div class="gallery">
         {{#projects__list}}
-        <a class="button button--image" href="{{link}}">
-          <div class="button__paddle">
-            <img class="button__image" src="{{thumb}}" />
-            <span class="button__label">{{name}}</span>
-          </div>
+        <a class="gallery-item" href="{{link}}">
+          <img class="gallery-item__image" src="{{thumb}}" />
+          <span class="gallery-item__label">{{name}}</span>
         </a>
         {{/projects__list}}
       </div>
     </section>
     <section class="page__section">
-      <div class="section__header flex place-content-between">
-        <h2 class="text-xl font-medium mb-6">3D Models</h2>
-        <a href="{{printablesUrl}}" target="_blank" class="no-highlight">
-          <span class="flex items-center">
-            <img src="/assets/icons/printables_icon.svg" alt="Printables Icon" width="16" height="16" /> Printables Profile
+      <div class="section__header">
+        <h2 class="text-xl font-medium">3D Printing</h2>
+        <a href="{{printablesUrl}}" target="_blank" class="link">
+          <span class="flex items-center gap-2">
+            <span>Printables</span>
+            <img src="/assets/icons/printables_icon.svg" alt="Printables Icon" width="16" height="16" />
           </span>
         </a>
       </div>
       <div class="gallery">
         {{#3d_models__list}}
-        <a class="button button--image" href="{{link}}">
-          <div class="button__paddle">
-            <img class="button__image" src="{{thumb}}" />
-            <span class="button__label">{{name}}</span>
-          </div>
+        <a class="gallery-item" href="{{link}}">
+          <img class="gallery-item__image" src="{{thumb}}" />
+          <span class="gallery-item__label">{{name}}</span>
         </a>
         {{/3d_models__list}}
       </div>

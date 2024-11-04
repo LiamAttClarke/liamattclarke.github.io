@@ -17,13 +17,14 @@
         </a>
       </header>
       <p>Real-time 3D geometry bisection in <a href="https://unity.com/">Unity</a>.</p>
+    </div>
+    <br />
+    <div class="card">
       <h3 class="font-medium text-lg mb-3">Gallery</h3>
-      <div class="gallery">
+      <div class="gallery compact">
         {{#projects.unity-mesh-slicer.gallery}}
-        <a class="button button--image" href="{{.}}">
-          <div class="button__paddle">
-            <img class="button__image" src="{{.}}" />
-          </div>
+        <a class="gallery-item" href="{{.}}">
+          <img class="gallery-item__image" src="{{.}}" />
         </a>
         {{/projects.unity-mesh-slicer.gallery}}
       </div>

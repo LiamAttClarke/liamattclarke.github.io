@@ -37,13 +37,14 @@
           Your browser does not support the audio element.
         </audio>
       </div>
+    </div>
+    <br/>
+    <div class="card">
       <h3 class="font-medium text-lg mb-3">Gallery</h3>
-      <div class="gallery">
+      <div class="gallery compact">
         {{#projects.ai-music-blocks.gallery}}
-        <a class="button button--image" href="{{.}}">
-          <div class="button__paddle">
-            <img class="button__image" src="{{.}}" />
-          </div>
+        <a class="gallery-item" href="{{.}}">
+          <img class="gallery-item__image" src="{{.}}" />
         </a>
         {{/projects.ai-music-blocks.gallery}}
       </div>

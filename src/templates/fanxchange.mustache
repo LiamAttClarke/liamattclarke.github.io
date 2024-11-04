@@ -18,13 +18,14 @@
       </header>
       <p>After a rebranding of the company, I worked closely with the lead designer to rebuild <a href="https://fanxchange.com">fanxchange.com</a>.</p>
       <p>Below are screenshots of the project as of early 2019 and includes the work of many talented designers and developers since it's first launch.</p>
+    </div>
+    <br />
+    <div class="card">
       <h3 class="font-medium text-lg mb-3">Gallery</h3>
-      <div class="gallery">
+      <div class="gallery compact">
         {{#projects.fanxchange.gallery}}
-        <a class="button button--image" href="{{.}}">
-          <div class="button__paddle">
-            <img class="button__image" src="{{.}}" />
-          </div>
+        <a class="gallery-item" href="{{.}}">
+          <img class="gallery-item__image" src="{{.}}" />
         </a>
         {{/projects.fanxchange.gallery}}
       </div>
