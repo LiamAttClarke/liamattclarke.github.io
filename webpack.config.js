@@ -18,7 +18,7 @@ module.exports = {
   output: {
     path: PUBLIC_PATH,
     filename: "bundle.js",
-    // clean: true
+    clean: true
   },
   devServer: {
     static: {
