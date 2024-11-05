@@ -2,7 +2,7 @@ const { addDynamicIconSelectors } = require('@iconify/tailwind');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{mustache,html,js}"],
+  content: ["./src/**/*.{hbs,html,js}"],
   theme: {
     fontFamily: {
       sans: ['Poppins', 'sans-serif']

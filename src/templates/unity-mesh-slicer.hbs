@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>{{title}} - {{projects.fanxchange.name}}</title>
+  <title>{{title}} - {{projects.unity-mesh-slicer.name}}</title>
   {{> head}}
 </head>
+
 <body>
   <div class="page">
     {{> header}}
     <div class="card">
       <header class="card__header">
-        <h2 class="font-medium text-xl">{{projects.fanxchange.name}}</h2>
-        <a class="button" href="https://fanxchange.com">
+        <h2 class="font-medium text-xl">{{projects.unity-mesh-slicer.name}}</h2>
+        <a class="button" href="https://github.com/LiamAttClarke/unity-mesh-slicer">
           <div class="button__paddle">
             <span class="button__label">check it out</span>
           </div>
         </a>
       </header>
-      <p>After a rebranding of the company, I worked closely with the lead designer to rebuild <a href="https://fanxchange.com">fanxchange.com</a>.</p>
-      <p>Below are screenshots of the project as of early 2019 and includes the work of many talented designers and developers since it's first launch.</p>
+      <p>Real-time 3D geometry bisection in <a href="https://unity.com/">Unity</a>.</p>
     </div>
     <br />
     <div class="card">
       <h3 class="font-medium text-lg mb-3">Gallery</h3>
       <div class="gallery compact">
-        {{#projects.fanxchange.gallery}}
+        {{#each projects.unity-mesh-slicer.gallery}}
         <a class="gallery-item" href="{{.}}">
           <img class="gallery-item__image" src="{{.}}" />
         </a>
-        {{/projects.fanxchange.gallery}}
+        {{/each}}
       </div>
     </div>
   </div>
 </body>
+
 </html>

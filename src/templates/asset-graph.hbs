@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}} - {{projects.asset-graph.name}}</title>
+  {{> head}}
+</head>
+
+<body>
+  <div class="page">
+    {{> header}}
+    <div class="card">
+      <header class="card__header">
+        <h2 class="font-medium text-xl">{{projects.asset-graph.name}}</h2>
+      </header>
+      <p>Asset Graph is a powerful system designed to compose a searchable graph of files based on a set of contextual
+        associations. The system is architected as a modular framework with extension points for expanding supported
+        file types and relational mapping techniques, making it highly flexible and customizable to the dataset and
+        application.</p>
+      <p>The system's capabilities were successfully demonstrated against a dataset from a notable animated YouTube
+        series. Our client successfully indexed 400k+ production assets. The generated graph was then used to aggregate
+        relevant training data for custom generative AI models.</p>
+    </div>
+    <br />
+    <div class="card">
+      <h3 class="font-medium text-lg mb-3">Gallery</h3>
+      <div class="gallery ">
+        {{#each projects.asset-graph.gallery}}
+        <a class="gallery-item" href="{{.}}">
+          <img class="gallery-item__image" src="{{.}}" />
+        </a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}} - {{projects.svg-plotter.name}}</title>
+  {{> head}}
+</head>
+
+<body>
+  <div class="page">
+    {{> header}}
+    <div class="card">
+      <header class="card__header">
+        <h2 class="font-medium text-xl">{{projects.trash-panda.name}}</h2>
+      </header>
+      <p>Trash Panda was built to streamline the experience of responsible waste disposal.
+      <p>
+      <p>Users take a photo of their waste or search for a match. Depending on the item, they may be asked some simple
+        follow-up questions to help improve the disposal suggestion. Finally, they are presented with a clear
+        recommendation along with local alternatives for waste-diversion when available.</p>
+      <p>The system was design to be customized for each municipality with a comprehensive management system. This
+        system included a unique diagramming tool for defining the rules for a given municipality.
+      <p>
+    </div>
+    <br />
+    <div class="card">
+      <h3 class="font-medium text-lg mb-3">Gallery</h3>
+      <div class="gallery compact">
+        {{#each projects.trash-panda.gallery}}
+        <a class="gallery-item" href="{{.}}">
+          <img class="gallery-item__image" src="{{.}}" />
+        </a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
