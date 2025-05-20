@@ -228,7 +228,7 @@
 :root {
   --print-width: 210mm;
   --print-height: 297mm;
-  --print-margin: 0.75in;
+  --print-margin: 0.5in;
 }
 
 .page--resume {
@@ -279,7 +279,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .resume .contact-details > a {
+  .resume .contact-details>a {
     flex-direction: row;
   }
 }
