@@ -7,6 +7,12 @@
   "githubUrl": "https://github.com/LiamAttClarke",
   "printablesUrl": "https://www.printables.com/@n69zdJov7qRet_251472",
   "projects": {
+    "switch-grass": {
+      "name": "Switch Grass",
+      "thumb": "/assets/switch-grass/thumb.jpg",
+      "description": "Interactive field of lights for the Royal Botanical Gardens.",
+      "link": "https://www.treehousecollective.art/switchgrass1-3"
+    },
     "asset-graph": {
       "name": "Asset Graph",
       "thumb": "/assets/asset-graph/thumb.jpg",
