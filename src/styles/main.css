@@ -5,6 +5,7 @@
 @import "./card.css";
 @import "./gallery.css";
 @import "./resume.css";
+@import "./decoration.css";
 
 @layer base {
   :root {
@@ -171,7 +172,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 0;
+  margin: 16px 0 24px 0;
   padding: 16px 0;
   border-bottom: solid 1px var(--c-grey-500);
 }

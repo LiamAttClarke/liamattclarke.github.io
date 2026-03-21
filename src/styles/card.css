@@ -4,6 +4,11 @@
   background-color: var(--c-grey-400);
 }
 
+.card-row {
+  display: flex;
+  gap: 24px;
+}
+
 .card__header {
   display: flex;
   justify-content: space-between;

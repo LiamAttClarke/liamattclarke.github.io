@@ -170,6 +170,11 @@
   background-color: var(--c-grey-400);
 }
 
+.card-row {
+  display: flex;
+  gap: 24px;
+}
+
 .card__header {
   display: flex;
   justify-content: space-between;
@@ -201,20 +206,17 @@
   flex-direction: column;
   align-items: center;
   height: 100%;
+  padding: 4px;
   background-color: var(--c-grey-400);
   border-radius: var(--d-border-radius);
-  padding: 4px;
+  border: solid 2px var(--c-grey-400);
 }
 
 .gallery-item__image {
   height: 100%;
   object-fit: cover;
   border-radius: var(--d-border-radius);
-  /* border: solid 2px var(--c-grey-700); */
-}
-
-.gallery-item__label {
-  padding: 4px 0;
+  margin-bottom: 4px;
 }
 
 @media screen and (max-width: 640px) {
@@ -282,6 +284,11 @@
   .resume .contact-details>a {
     flex-direction: row;
   }
+}
+
+.liam-sketch {
+  border-radius: 100%;
+  border: solid 2px var(--c-grey-600);
 }
 
 /*
@@ -1134,7 +1141,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 0;
+  margin: 16px 0 24px 0;
   padding: 16px 0;
   border-bottom: solid 1px #cacaca;
   border-bottom: solid 1px var(--c-grey-500);
